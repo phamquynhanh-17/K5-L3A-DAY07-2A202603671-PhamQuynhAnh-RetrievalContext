@@ -1,0 +1,18 @@
+{
+  "strategy": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "use_filter": true,
+  "n": 15,
+  "hit1": 11,
+  "hit1_rate": 0.7333,
+  "hit3": 14,
+  "hit3_rate": 0.9333,
+  "context_hit": 9,
+  "context_rate": 0.6,
+  "avg_context_chars": 639.1,
+  "median_ms": 670.59,
+  "total_seconds": 10.186,
+  "rerank_tokens": 0,
+  "split": "dev"
+}

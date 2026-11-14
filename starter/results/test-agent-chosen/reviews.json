@@ -1,0 +1,54 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng không đòi hỏi IQ cao hay thông tin nội bộ; p33_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng 250% ngày đầu và tháng 10 bị phát hiện lừa đảo, cổ phiếu vô giá trị; p29_para_0 hỗ trợ."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng lý do mua tháng 12 và chi phí môi giới 8% làm tiêu biến lợi nhuận; p1_para_6 hỗ trợ."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng mức luân chuyển 20% (1973) và 105% (2002); p4_para_3 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đủ ý quỹ riêng càng nhỏ càng tốt và không đổ thêm tiền khi thị trường lên; p14_para_1 hỗ trợ."
+  },
+  {
+    "query_id": "u03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng câu Phụ lục / năm 2008 không có trong tài liệu."
+  },
+  {
+    "query_id": "u04",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Agent tự tìm 3 lượt với từ khóa khác nhau rồi từ chối đúng câu Chương 14."
+  }
+]

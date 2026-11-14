@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng không đòi hỏi IQ cao hay thông tin nội bộ; p33_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng 250% ngày đầu và tháng 10 bị phát hiện lừa đảo, cổ phiếu vô giá trị; p29_para_0 hỗ trợ."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng chi phí môi giới chứng khoán nhỏ ăn tới 8% và nhiều người mua tháng 12; p1_para_6 hỗ trợ."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng mức luân chuyển 20% (1973) và 105% (2002); p4_para_3 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì budget=800 bỏ mất p14_para_1 dù TF-IDF rank #1."
+  },
+  {
+    "query_id": "u03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng câu Phụ lục / năm 2008 không có trong tài liệu."
+  },
+  {
+    "query_id": "u04",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng câu Chương 14 không có trong trích đoạn."
+  }
+]

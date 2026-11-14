@@ -1,0 +1,99 @@
+{
+  "test-tfidf": {
+    "split": "test",
+    "budget_chars": 800,
+    "counts": {"0": 1, "1": 0, "2": 4},
+    "mean": 1.6,
+    "items": [
+      {
+        "query_id": "q16",
+        "context_grade": 2,
+        "context_ids": ["nha-dau-tu-thong-minh-excerpt_p33_para_0"],
+        "reason": "Chứa trọn p33_para_0 (trang 33) với đủ điều kiện không đòi hỏi IQ cao/thông tin nội bộ và cần khuôn khổ trí tuệ."
+      },
+      {
+        "query_id": "q17",
+        "context_grade": 2,
+        "context_ids": ["nha-dau-tu-thong-minh-excerpt_p29_para_0"],
+        "reason": "Chứa trọn p29_para_0 (trang 29) với đủ số liệu 250% ngày đầu (4/1919) và vụ lừa đảo tháng 10 của Savold Tire."
+      },
+      {
+        "query_id": "q18",
+        "context_grade": 2,
+        "context_ids": ["nha-dau-tu-thong-minh-excerpt_p1_para_6"],
+        "reason": "Chứa trọn p1_para_6 (trang 1) với đủ thông tin mua trước vào tháng 12 và chi phí môi giới chứng khoán nhỏ ăn tới 8%."
+      },
+      {
+        "query_id": "q19",
+        "context_grade": 2,
+        "context_ids": ["nha-dau-tu-thong-minh-excerpt_p4_para_3"],
+        "reason": "Chứa trọn p4_para_3 (trang 4) với đủ số liệu mức luân chuyển 20% (1973, giữ 5 năm) và 105% (2002, giữ 11,4 tháng)."
+      },
+      {
+        "query_id": "q20",
+        "context_grade": 0,
+        "context_ids": ["nha-dau-tu-thong-minh-excerpt_p1_para_3"],
+        "reason": "Dù p14_para_1 đứng hạng #1 trong kết quả TF-IDF, độ dài chunk cộng header vượt budget=800 nên bị pack_context loại bỏ; chỉ còn p1_para_3 (hạng #2) không chứa evidence."
+      }
+    ]
+  },
+  "test-hybrid-rerank-b3600": {
+    "split": "test",
+    "budget_chars": 3600,
+    "counts": {"0": 0, "1": 0, "2": 5},
+    "mean": 2.0,
+    "items": [
+      {
+        "query_id": "q16",
+        "context_grade": 2,
+        "context_ids": [
+          "nha-dau-tu-thong-minh-excerpt_p33_para_0",
+          "nha-dau-tu-thong-minh-excerpt_p20_para_3",
+          "nha-dau-tu-thong-minh-excerpt_p19_para_1"
+        ],
+        "reason": "p33_para_0 đứng đầu context với đầy đủ nguồn, trang và nội dung."
+      },
+      {
+        "query_id": "q17",
+        "context_grade": 2,
+        "context_ids": [
+          "nha-dau-tu-thong-minh-excerpt_p29_para_0",
+          "nha-dau-tu-thong-minh-excerpt_p29_para_2",
+          "nha-dau-tu-thong-minh-excerpt_p29_para_1"
+        ],
+        "reason": "p29_para_0 đứng đầu context kèm 2 đoạn lân cận cùng trang 29."
+      },
+      {
+        "query_id": "q18",
+        "context_grade": 2,
+        "context_ids": [
+          "nha-dau-tu-thong-minh-excerpt_p1_para_6",
+          "nha-dau-tu-thong-minh-excerpt_p1_para_2",
+          "nha-dau-tu-thong-minh-excerpt_p1_para_1"
+        ],
+        "reason": "p1_para_6 đứng đầu context và tuân thủ filter section=commentary_ch1."
+      },
+      {
+        "query_id": "q19",
+        "context_grade": 2,
+        "context_ids": [
+          "nha-dau-tu-thong-minh-excerpt_p4_para_3",
+          "nha-dau-tu-thong-minh-excerpt_p17_para_3",
+          "nha-dau-tu-thong-minh-excerpt_p21_para_3"
+        ],
+        "reason": "p4_para_3 đứng đầu context với đầy đủ số liệu năm 1973 và 2002."
+      },
+      {
+        "query_id": "q20",
+        "context_grade": 2,
+        "context_ids": [
+          "nha-dau-tu-thong-minh-excerpt_p14_para_1",
+          "nha-dau-tu-thong-minh-excerpt_p16_para_0",
+          "nha-dau-tu-thong-minh-excerpt_p23_para_2"
+        ],
+        "reason": "p14_para_1 đứng đầu context và nằm trọn trong budget=3600 (khắc phục lỗi rớt chunk ở budget=800)."
+      }
+    ]
+  }
+}
+

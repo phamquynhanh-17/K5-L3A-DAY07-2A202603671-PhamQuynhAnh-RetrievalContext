@@ -1,0 +1,19 @@
+{
+  "strategy": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "use_filter": true,
+  "n": 15,
+  "hit1": 15,
+  "hit1_rate": 1.0,
+  "hit3": 15,
+  "hit3_rate": 1.0,
+  "context_hit": 15,
+  "context_rate": 1.0,
+  "avg_context_chars": 2000.7,
+  "median_ms": 1292.71,
+  "total_seconds": 19.162,
+  "rerank_tokens": 28657,
+  "rerank_errors": 0,
+  "split": "dev"
+}

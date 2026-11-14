@@ -6,6 +6,17 @@ __pycache__/
 !.env.example
 .codex-log/
 
-# Local datasets and generated output; share permitted artifacts deliberately
-starter/data/
-starter/results/
+# Ignore imported raw Day 6 workspace, PDFs, SQLite DBs, and query caches
+data/Lab_06/
+*.pdf
+*.sqlite*
+starter/data/day6_c/query_emb_cache.json
+
+# Keep local optional Advanced Challenge artifacts on disk without pushing them
+data/advanced_benchmark.json
+src/advanced_benchmark.py
+src/advanced_evaluate.py
+src/advanced_index.py
+src/advanced_runner.py
+starter/data/advanced/
+starter/results/advanced-*/

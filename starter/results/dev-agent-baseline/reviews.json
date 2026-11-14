@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng năm 1950 và tuổi 19; p33_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì budget=800 bỏ p33_para_1."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "reason": "Nêu đúng tuổi gần tám mươi từ p32_para_0 nhưng bỏ sót 3 điều mong muốn mỗi ngày."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì TF-IDF/budget=800 bỏ p30_para_4."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng ít nhất 14,7%/năm; p29_para_2 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì budget=800 bỏ p29_para_4."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng 80.000 đô la sau 20 năm; p27_para_3 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì TF-IDF không lấy được p20_para_1."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng 20.000 bảng; p19_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì budget=800 bỏ p17_para_4 (rank 1)."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm câu có đáp án vì budget=800 bỏ p16_para_1."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng trên 90% và đủ hai lý do; p15_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "reason": "Chỉ nêu tối thiểu 25% và 50-50 theo p25_para_5, thiếu giới hạn tối đa 75% ở p14_para_4."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "reason": "Chỉ nêu mức 3,2% cuối năm 1964 từ p14_para_5, thiếu mức <3,5% lúc Dow=900 do budget=800 bỏ p13_para_2."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng kỳ vọng tăng thêm ~5%; p6_para_2 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "u01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng câu thiếu nội dung Chương 8."
+  },
+  {
+    "query_id": "u02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng câu thiếu nội dung Chương 20."
+  }
+]

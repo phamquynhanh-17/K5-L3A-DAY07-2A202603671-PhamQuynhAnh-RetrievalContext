@@ -1,0 +1,1298 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Warren E. Buffett đọc bản in lần đầu tiên của cuốn Nhà đầu tư thông minh vào năm nào và khi đó ông bao nhiêu tuổi?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 33,
+        "evidence": "Tôi đọc bản in lần đầu tiên của cuốn sách này vào năm 1950, khi tôi mười chín tuổi."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p33_para_0",
+        "text": "Lời nói đầu cho lần xuất bản thứ tư, của Warren E. Buffett Tôi đọc bản in lần đầu tiên của cuốn sách này vào năm 1950, khi tôi mười chín tuổi. Khi đó tôi đã nghĩ đó là cuốn sách về đầu tư hay nhất từng được viết. Bây giờ tôi vẫn nghĩ thế. Việc đầu tư thành công trong cuộc đời không đòi hỏi một chỉ số IQ cao chót vót, tầm hiểu biết kinh doanh sâu sắc khác thường, hay thông tin nội bộ. Những gì cần có là một khuôn khổ trí tuệ sáng suốt để đưa ra quyết định, và khả năng khiến cho cảm xúc không phá hủy nền tảng đó. Cuốn sách này đưa ra khuôn khổ trí tuệ chuẩn mực một cách chính xác và rõ ràng. Bạn phải tự đưa ra kỷ luật cho cảm xúc.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 33,
+        "metadata": {
+          "author_role": "buffett",
+          "book_page": 3,
+          "char_len": 636,
+          "chunk_index": 0,
+          "pdf_page": 33,
+          "section": "preface_buffett",
+          "section_title": "Lời nói đầu & Tưởng niệm Benjamin Graham (Warren E. Buffett)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p30_para_1",
+        "text": "Và cuốn Nhà đầu tư thông minh chính là cuốn đầu tiên miêu tả, cho các nhà đầu tư cá nhân, nền tảng cảm xúc và các công cụ phân tích thiết yếu cho sự thành công trong tài chính. Nó vẫn là một cuốn sách hay nhất về đầu tư từng được viết cho công chúng. Nhà đầu tư thông minh là cuốn sách đầu tiên tôi đọc khi vào làm cho tạp chí Forbes, với vị trí một phóng viên mới, vào năm 1987, và tôi bị ấn tượng với sự chắc chắn của Graham rằng trước hay sau gì thì tất cả các thị trường giá lên rồi cũng sẽ có kết thúc xấu. Tháng 10 năm đó, cổ phiếu Mỹ hứng chịu vụ sụp đổ trong một ngày tồi tệ nhất trong lịch sử và tôi đã bị cuốn hút.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 30,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 6,
+          "char_len": 624,
+          "chunk_index": 1,
+          "pdf_page": 30,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p26_para_2",
+        "text": "Từ lần đầu xuất bản vào năm 1949, những lần tái bản cửa Nhà đầu tư thông minh đã được phát hành theo những khoảng thời gian 5 năm một. Trong khi cập nhật bản hiện tại, chúng tôi đã phải xử lý một lượng đáng kể các diễn biến mới từ khi bản 1965 được viết. Chúng bao gồm: 1.Sự tăng mạnh chưa từng có trong mức lãi suất của các trái phiếu cấp cao.\n\n2.Sự giảm khoảng 35% giá của các cổ phiếu thường hàng đầu, kết thúc vào tháng 5 năm 1970. Đây là số phần trăm giảm lớn nhất trong khoảng 30 năm (vô số các cổ ph iếu khác với chất lượng thấp hơn có mức giảm lớn hơn nhiều).\n\n3. Mức lạm phát kéo dài đối với giá bán buôn và giá bán lẻ, vẫn còn đà tăng thậm chí cả khi đối mặt với sự giảm sút của việc kinh doanh chung vào năm 1970.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 26,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 10,
+          "char_len": 724,
+          "chunk_index": 2,
+          "pdf_page": 26,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.031258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p33_para_0 | starter/data/sách.pdf | page 33]\nLời nói đầu cho lần xuất bản thứ tư, của Warren E. Buffett Tôi đọc bản in lần đầu tiên của cuốn sách này vào năm 1950, khi tôi mười chín tuổi. Khi đó tôi đã nghĩ đó là cuốn sách về đầu tư hay nhất từng được viết. Bây giờ tôi vẫn nghĩ thế. Việc đầu tư thành công trong cuộc đời không đòi hỏi một chỉ số IQ cao chót vót, tầm hiểu biết kinh doanh sâu sắc khác thường, hay thông tin nội bộ. Những gì cần có là một khuôn khổ trí tuệ sáng suốt để đưa ra quyết định, và khả năng khiến cho cảm xúc không phá hủy nền tảng đó. Cuốn sách này đưa ra khuôn khổ trí tuệ chuẩn mực một cách chính xác và rõ ràng. Bạn phải tự đưa ra kỷ luật cho cảm xúc.\n\n[nha-dau-tu-thong-minh-excerpt_p30_para_1 | starter/data/sách.pdf | page 30]\nVà cuốn Nhà đầu tư thông minh chính là cuốn đầu tiên miêu tả, cho các nhà đầu tư cá nhân, nền tảng cảm xúc và các công cụ phân tích thiết yếu cho sự thành công trong tài chính. Nó vẫn là một cuốn sách hay nhất về đầu tư từng được viết cho công chúng. Nhà đầu tư thông minh là cuốn sách đầu tiên tôi đọc khi vào làm cho tạp chí Forbes, với vị trí một phóng viên mới, vào năm 1987, và tôi bị ấn tượng với sự chắc chắn của Graham rằng trước hay sau gì thì tất cả các thị trường giá lên rồi cũng sẽ có kết thúc xấu. Tháng 10 năm đó, cổ phiếu Mỹ hứng chịu vụ sụp đổ trong một ngày tồi tệ nhất trong lịch sử và tôi đã bị cuốn hút.\n\n[nha-dau-tu-thong-minh-excerpt_p26_para_2 | starter/data/sách.pdf | page 26]\nTừ lần đầu xuất bản vào năm 1949, những lần tái bản cửa Nhà đầu tư thông minh đã được phát hành theo những khoảng thời gian 5 năm một. Trong khi cập nhật bản hiện tại, chúng tôi đã phải xử lý một lượng đáng kể các diễn biến mới từ khi bản 1965 được viết. Chúng bao gồm: 1.Sự tăng mạnh chưa từng có trong mức lãi suất của các trái phiếu cấp cao.\n\n2.Sự giảm khoảng 35% giá của các cổ phiếu thường hàng đầu, kết thúc vào tháng 5 năm 1970. Đây là số phần trăm giảm lớn nhất trong khoảng 30 năm (vô số các cổ ph iếu khác với chất lượng thấp hơn có mức giảm lớn hơn nhiều).\n\n3. Mức lạm phát kéo dài đối với giá bán buôn và giá bán lẻ, vẫn còn đà tăng thậm chí cả khi đối mặt với sự giảm sút của việc kinh doanh chung vào năm 1970.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p33_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p30_para_1",
+      "nha-dau-tu-thong-minh-excerpt_p26_para_2"
+    ],
+    "context_chars": 2219,
+    "elapsed_ms": 133.19,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Theo lời nói đầu của Warren E. Buffett, hai chương nào trong sách cần được đặc biệt chú ý tới?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 33,
+        "evidence": "nếu đặc biệt chú ý tới những lời khuyên vô giá trong chương 8 và chương 20 - bạn sẽ không phải nhận kết quả tồi từ những đầu tư của mình"
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p33_para_0",
+        "text": "Lời nói đầu cho lần xuất bản thứ tư, của Warren E. Buffett Tôi đọc bản in lần đầu tiên của cuốn sách này vào năm 1950, khi tôi mười chín tuổi. Khi đó tôi đã nghĩ đó là cuốn sách về đầu tư hay nhất từng được viết. Bây giờ tôi vẫn nghĩ thế. Việc đầu tư thành công trong cuộc đời không đòi hỏi một chỉ số IQ cao chót vót, tầm hiểu biết kinh doanh sâu sắc khác thường, hay thông tin nội bộ. Những gì cần có là một khuôn khổ trí tuệ sáng suốt để đưa ra quyết định, và khả năng khiến cho cảm xúc không phá hủy nền tảng đó. Cuốn sách này đưa ra khuôn khổ trí tuệ chuẩn mực một cách chính xác và rõ ràng. Bạn phải tự đưa ra kỷ luật cho cảm xúc.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 33,
+        "metadata": {
+          "author_role": "buffett",
+          "book_page": 3,
+          "char_len": 636,
+          "chunk_index": 0,
+          "pdf_page": 33,
+          "section": "preface_buffett",
+          "section_title": "Lời nói đầu & Tưởng niệm Benjamin Graham (Warren E. Buffett)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p21_para_1",
+        "text": "Trong khi viết cuốn sách này, chúng tôi đã cố gắng chú ý đến cạm bẫy đầu tư này. Các tính chất tốt của một phương thức đầu tư đơn giản đã được nhấn mạnh - việc mua các trái phiếu cấp cao cộng với một danh mục đa dạng các cổ phiếu thường hàng đầu - điều mà bất kỳ nhà đẳu tư nào cũng có thể thực hiện mà không cần sự hỗ trợ của chuyên gia. Cuộc phiêu lưu ra ngoài khu vực an toàn và chắc chắn này chứa đãy những khó khăn thách thức, đặc biệt trong vấn đề tính khí. Trước khi thử thực hiện một thương vụ mạo hiểm như vậy, nhà đầu tư phải tin chắc vào bản thân mình và các cố vấn của anh ta - đặc biệt là xem các cố vấn đó có khái niệm rõ ràng về sự khác biệt giữa sự đầu tư và đằu cơ; giữa giá thị trường và giá trị cơ sở.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 21,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 15,
+          "char_len": 720,
+          "chunk_index": 1,
+          "pdf_page": 21,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.031281,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p16_para_0",
+        "text": "CHƯƠNG 1 Đàu tư hay đâu cơ: các kết quà mà nhà đầu tư thông minh trông đựi Chương này phác họa các quan điểm sẽ được nêu trong phần còn lại của cuốn sách. Đặc biệt, chúng tôi muốn ngay từ đầu phát triển khái niệm của mình về cách thức phân bổ danh mục đầu tư thích hợp đối với nhà đầu tư đơn lẻ không chuyên nghiệp.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 16,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 20,
+          "char_len": 315,
+          "chunk_index": 0,
+          "pdf_page": 16,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.030331,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p33_para_0 | starter/data/sách.pdf | page 33]\nLời nói đầu cho lần xuất bản thứ tư, của Warren E. Buffett Tôi đọc bản in lần đầu tiên của cuốn sách này vào năm 1950, khi tôi mười chín tuổi. Khi đó tôi đã nghĩ đó là cuốn sách về đầu tư hay nhất từng được viết. Bây giờ tôi vẫn nghĩ thế. Việc đầu tư thành công trong cuộc đời không đòi hỏi một chỉ số IQ cao chót vót, tầm hiểu biết kinh doanh sâu sắc khác thường, hay thông tin nội bộ. Những gì cần có là một khuôn khổ trí tuệ sáng suốt để đưa ra quyết định, và khả năng khiến cho cảm xúc không phá hủy nền tảng đó. Cuốn sách này đưa ra khuôn khổ trí tuệ chuẩn mực một cách chính xác và rõ ràng. Bạn phải tự đưa ra kỷ luật cho cảm xúc.\n\n[nha-dau-tu-thong-minh-excerpt_p21_para_1 | starter/data/sách.pdf | page 21]\nTrong khi viết cuốn sách này, chúng tôi đã cố gắng chú ý đến cạm bẫy đầu tư này. Các tính chất tốt của một phương thức đầu tư đơn giản đã được nhấn mạnh - việc mua các trái phiếu cấp cao cộng với một danh mục đa dạng các cổ phiếu thường hàng đầu - điều mà bất kỳ nhà đẳu tư nào cũng có thể thực hiện mà không cần sự hỗ trợ của chuyên gia. Cuộc phiêu lưu ra ngoài khu vực an toàn và chắc chắn này chứa đãy những khó khăn thách thức, đặc biệt trong vấn đề tính khí. Trước khi thử thực hiện một thương vụ mạo hiểm như vậy, nhà đầu tư phải tin chắc vào bản thân mình và các cố vấn của anh ta - đặc biệt là xem các cố vấn đó có khái niệm rõ ràng về sự khác biệt giữa sự đầu tư và đằu cơ; giữa giá thị trường và giá trị cơ sở.\n\n[nha-dau-tu-thong-minh-excerpt_p16_para_0 | starter/data/sách.pdf | page 16]\nCHƯƠNG 1 Đàu tư hay đâu cơ: các kết quà mà nhà đầu tư thông minh trông đựi Chương này phác họa các quan điểm sẽ được nêu trong phần còn lại của cuốn sách. Đặc biệt, chúng tôi muốn ngay từ đầu phát triển khái niệm của mình về cách thức phân bổ danh mục đầu tư thích hợp đối với nhà đầu tư đơn lẻ không chuyên nghiệp.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p33_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p21_para_1",
+      "nha-dau-tu-thong-minh-excerpt_p16_para_0"
+    ],
+    "context_chars": 1906,
+    "elapsed_ms": 115.4,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Ngày nào trong cuộc đời Ben Graham được nhắc đến khi ông gần tám mươi tuổi bày tỏ mong muốn làm ba điều mỗi ngày?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 32,
+        "evidence": "ngày nào ông cũng hy vọng làm được \"một điều gì đó ngốc nghếch, một điều gì đó sáng tạo và một điều gì đó hào phóng\"."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p32_para_0",
+        "text": "BENJAMIN GRAHAM 1894-1976 Vài năm trước, Ben Graham, khi đó đã gần tám mươi tuổi, bày tỏ với một người bạn ý nghĩ của ông rằng ngày nào ông cũng hy vọng làm được \"một điều gì đó ngốc nghếch, một điều gì đó sáng tạo và một điều gì đó hào phóng\".\n\nViệc nêu lên mục đích đầu tiên lạ lùng đó thể hiện cái tài của ông trong việc đưa ra ý tưởng mà không phải lớn tiếng thuyết giáo, hay lên mặt cho mình là quan trọng. Mặc dù những ý tưởng của ông rất mạnh mẽ, việc chuyển tải chúng luôn luôn được thực hiện một cách nhẹ nhàng.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 32,
+        "metadata": {
+          "author_role": "buffett",
+          "book_page": 4,
+          "char_len": 520,
+          "chunk_index": 0,
+          "pdf_page": 32,
+          "section": "preface_buffett",
+          "section_title": "Lời nói đầu & Tưởng niệm Benjamin Graham (Warren E. Buffett)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p32_para_4",
+        "text": "Nhưng mong muốn thứ ba của ông - sự hào phóng - là điều ông đã vượt qua tất cả. Tôi biết Ben như một thầy giáo, như một người chủ lao động và như một người bạn của minh. Trong mỗi mối quan hệ đó - cũng như với tất cả các học trò, nhân viên và bạn bè của ông - có một sự hào phóng mở vô hạn đối với các ý tưởng, thời gian và tinh thần. Nếu cần có sự thông suốt về suy nghĩ, thì không còn chỗ nào tốt hơn để tới. Và nếu cần sự động viên hay khuyên bảo, luôn có Ben ờ đó.\n\nWalter Lippmann đã nói về những người trồng cây mà sau này những người khác sẽ ngồi dưới tán của nó. Ben Graham là một người như vậy.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 32,
+        "metadata": {
+          "author_role": "buffett",
+          "book_page": 4,
+          "char_len": 603,
+          "chunk_index": 4,
+          "pdf_page": 32,
+          "section": "preface_buffett",
+          "section_title": "Lời nói đầu & Tưởng niệm Benjamin Graham (Warren E. Buffett)"
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p33_para_2",
+        "text": "Đối với tôi, Ben Graham còn hơn cả một tác giả hay một thầy giáo. Ông đã gây ảnh hưởng đối với tôi nhiều hơn bất cứ người đàn ông nào khác ngoại trừ bố tôi. ít lâu sau khi Ben mất vào năm 1976, tôi đã viết bài tưởng niệm ngắn sau đây về ông, trong tạp chí Financial Analysts Journal (Nhà phân tích tài chính). Khi bạn đọc cuốn sách, tôi tin rằng bạn sẽ hiểu được một số phẩm chất mà tôi nhắc tới trong bài tưởng nhớ này.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 33,
+        "metadata": {
+          "author_role": "buffett",
+          "book_page": 3,
+          "char_len": 420,
+          "chunk_index": 2,
+          "pdf_page": 33,
+          "section": "preface_buffett",
+          "section_title": "Lời nói đầu & Tưởng niệm Benjamin Graham (Warren E. Buffett)"
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p32_para_0 | starter/data/sách.pdf | page 32]\nBENJAMIN GRAHAM 1894-1976 Vài năm trước, Ben Graham, khi đó đã gần tám mươi tuổi, bày tỏ với một người bạn ý nghĩ của ông rằng ngày nào ông cũng hy vọng làm được \"một điều gì đó ngốc nghếch, một điều gì đó sáng tạo và một điều gì đó hào phóng\".\n\nViệc nêu lên mục đích đầu tiên lạ lùng đó thể hiện cái tài của ông trong việc đưa ra ý tưởng mà không phải lớn tiếng thuyết giáo, hay lên mặt cho mình là quan trọng. Mặc dù những ý tưởng của ông rất mạnh mẽ, việc chuyển tải chúng luôn luôn được thực hiện một cách nhẹ nhàng.\n\n[nha-dau-tu-thong-minh-excerpt_p32_para_4 | starter/data/sách.pdf | page 32]\nNhưng mong muốn thứ ba của ông - sự hào phóng - là điều ông đã vượt qua tất cả. Tôi biết Ben như một thầy giáo, như một người chủ lao động và như một người bạn của minh. Trong mỗi mối quan hệ đó - cũng như với tất cả các học trò, nhân viên và bạn bè của ông - có một sự hào phóng mở vô hạn đối với các ý tưởng, thời gian và tinh thần. Nếu cần có sự thông suốt về suy nghĩ, thì không còn chỗ nào tốt hơn để tới. Và nếu cần sự động viên hay khuyên bảo, luôn có Ben ờ đó.\n\nWalter Lippmann đã nói về những người trồng cây mà sau này những người khác sẽ ngồi dưới tán của nó. Ben Graham là một người như vậy.\n\n[nha-dau-tu-thong-minh-excerpt_p33_para_2 | starter/data/sách.pdf | page 33]\nĐối với tôi, Ben Graham còn hơn cả một tác giả hay một thầy giáo. Ông đã gây ảnh hưởng đối với tôi nhiều hơn bất cứ người đàn ông nào khác ngoại trừ bố tôi. ít lâu sau khi Ben mất vào năm 1976, tôi đã viết bài tưởng niệm ngắn sau đây về ông, trong tạp chí Financial Analysts Journal (Nhà phân tích tài chính). Khi bạn đọc cuốn sách, tôi tin rằng bạn sẽ hiểu được một số phẩm chất mà tôi nhắc tới trong bài tưởng nhớ này.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p32_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p32_para_4",
+      "nha-dau-tu-thong-minh-excerpt_p33_para_2"
+    ],
+    "context_chars": 1778,
+    "elapsed_ms": 120.61,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Theo phần chú giải của Jason Zweig, mẹ của Benjamin Graham đã mất trắng tiền trong sự kiện nào?",
+    "filter": {
+      "author_role": "zweig"
+    },
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 30,
+        "evidence": "rồi vay tiền để kinh doanh cổ phiếu theo kiểu bảo chứng (\"on margin\")[3], và bà bị mất trắng trong vụ sụp đổ của thị trường chứng 'Khoán năm 1907."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p30_para_4",
+        "text": "Mẹ của Ben biến nhà của mình thành nhà trọ; rồi vay tiền để kinh doanh cổ phiếu theo kiểu bảo chứng (\"on margin\")[3], và bà bị mất trắng trong vụ sụp đổ của thị trường chứng 'Khoán năm 1907. Suốt cuộc đời mình, Ben vẫn nhớ lại nỗi xấu hổ khi mà ông đi lĩnh tiền từ séc cho mẹ, và nghe nhân viên ngân hàng hỏi rằng: \"Dorothy Grossbaum có được nổi năm đôla không?”",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 30,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 6,
+          "char_len": 362,
+          "chunk_index": 4,
+          "pdf_page": 30,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p30_para_0",
+        "text": "Chú giải vê Benjamin Graham của Jason Zweig Benjamin Graham là ai, và tại sao bạn nên nghe lời ông?\n\nGraham không chỉ là một trong những nhà đầu tư giỏi nhất trên đời; ông còn là nhà tư tưởng về thực hành đầu tư vĩ đại nhất của mọi thời đại. Trước khi có Graham, các nhà quản lý tiền tệ hành động giống như một phường hội thời trung cổ, phần lớn bị chi phối bởi những điều mê tín, đoán mò và các nghi lễ kỳ lạ. Cuốn Security Analysis (Phân tích chứng khoán) của Graham là quyển sách giáo khoa đầu tiên biến cái vòng cổ hủ đó thành một ngành nghề hiện đại[1].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 30,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 6,
+          "char_len": 558,
+          "chunk_index": 0,
+          "pdf_page": 30,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.032266,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p18_para_1",
+        "text": "Phần nhiều những thiệt hại này có thể tránh được (và đã được tránh) bởi các nhà đầu tư đã sống và làm theo các quy tắc của Graham. Theo lời của Graham, \"trong khi sự nhiệt tình có thể là cằn thiết để đạt những thành tựu vĩ đại ở những chỗ khác, ở Phố Wall nó gãn như chắc chắn sẽ dẫn tới tai họa\". Bằng cách để mình bị cuốn theo cổ phiếu Internet, cổ phiếu \"tăng giá nhanh\", và cổ phiếu nói chung, nhiều người đã mắc phải những sai lầm ngớ ngẩn như Isaac Nevvton. Họ để cho sự đánh giá của các nhà đầu tư khác quyết định sự đánh giá của chính mình.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 18,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 18,
+          "char_len": 548,
+          "chunk_index": 1,
+          "pdf_page": 18,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.03055,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p30_para_4 | starter/data/sách.pdf | page 30]\nMẹ của Ben biến nhà của mình thành nhà trọ; rồi vay tiền để kinh doanh cổ phiếu theo kiểu bảo chứng (\"on margin\")[3], và bà bị mất trắng trong vụ sụp đổ của thị trường chứng 'Khoán năm 1907. Suốt cuộc đời mình, Ben vẫn nhớ lại nỗi xấu hổ khi mà ông đi lĩnh tiền từ séc cho mẹ, và nghe nhân viên ngân hàng hỏi rằng: \"Dorothy Grossbaum có được nổi năm đôla không?”\n\n[nha-dau-tu-thong-minh-excerpt_p30_para_0 | starter/data/sách.pdf | page 30]\nChú giải vê Benjamin Graham của Jason Zweig Benjamin Graham là ai, và tại sao bạn nên nghe lời ông?\n\nGraham không chỉ là một trong những nhà đầu tư giỏi nhất trên đời; ông còn là nhà tư tưởng về thực hành đầu tư vĩ đại nhất của mọi thời đại. Trước khi có Graham, các nhà quản lý tiền tệ hành động giống như một phường hội thời trung cổ, phần lớn bị chi phối bởi những điều mê tín, đoán mò và các nghi lễ kỳ lạ. Cuốn Security Analysis (Phân tích chứng khoán) của Graham là quyển sách giáo khoa đầu tiên biến cái vòng cổ hủ đó thành một ngành nghề hiện đại[1].\n\n[nha-dau-tu-thong-minh-excerpt_p18_para_1 | starter/data/sách.pdf | page 18]\nPhần nhiều những thiệt hại này có thể tránh được (và đã được tránh) bởi các nhà đầu tư đã sống và làm theo các quy tắc của Graham. Theo lời của Graham, \"trong khi sự nhiệt tình có thể là cằn thiết để đạt những thành tựu vĩ đại ở những chỗ khác, ở Phố Wall nó gãn như chắc chắn sẽ dẫn tới tai họa\". Bằng cách để mình bị cuốn theo cổ phiếu Internet, cổ phiếu \"tăng giá nhanh\", và cổ phiếu nói chung, nhiều người đã mắc phải những sai lầm ngớ ngẩn như Isaac Nevvton. Họ để cho sự đánh giá của các nhà đầu tư khác quyết định sự đánh giá của chính mình.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p30_para_4",
+      "nha-dau-tu-thong-minh-excerpt_p30_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p18_para_1"
+    ],
+    "context_chars": 1703,
+    "elapsed_ms": 47.09,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Từ năm 1936 tới khi nghỉ hưu vào năm 1956, Công ty Graham-Newman đạt mức lãi bình quân ít nhất bao nhiêu phần trăm mỗi năm?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 29,
+        "evidence": "từ năm 1936 cho tới khi ông nghỉ hưu vào năm 1956, Công ty Graham-Newman của ông nhận được lãi ít nhất 14,7% mỗi năm, so với 12,2% của toàn bộ thị trường cổ phiếu"
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p29_para_2",
+        "text": "Dù phải chịu sự thua lỗ gần 70% trong cuộc Đại khủng hoảng 1929-1932, Graham đã vượt qua và còn phát đạt trong hậu kỳ, thu được những khoản hời từ đống đổ nát của thị trường giá lên. Không có ghi chép chính xác nào về lợi nhuận sớm nhất của Graham, nhưng từ năm 1936 cho tới khi ông nghỉ hưu vào năm 1956, Công ty Graham-Newman của ông nhận được lãi ít nhất 14,7% mỗi năm, so với 12,2% của toàn bộ thị trường cổ phiếu - một trong những kết quả dài hạn tốt nhất trong lịch sử Phô' Wall[4].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 29,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 7,
+          "char_len": 488,
+          "chunk_index": 2,
+          "pdf_page": 29,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p27_para_4",
+        "text": "Đây là sự khác biệt lớn so với lời hứa hẹn 80.000 đô la của con người vĩ đại này, và nó chỉ ra rằng ta khó có thể tin tưởng vào những lời dự báo và hứa hẹn lạc quan được. Nhưng, như một nhận xét ngoài lề, chúng ta có thể nhận thấy rằng mức sinh lợi được hiện thực hóa bằng kế hoạch 20 năm đó còn tốt hơn 8% lãi suất cộng dồn hằng năm - và điều này có được bất chấp việc nhà đầu tư bắt đầu mua bán với DJIA ở mức 300 và kết thúc ở mức định giá dựa trên mức đóng cửa năm 1948 là 177. Thành tích này có thể được coi là luận cứ thuyết phục cho nguyên tắc mua bán hằng tháng các cổ phiếu thường, mạnh, dù trải qua thuận lợi hay bất lợi - một phương pháp được gọi là \"bình quân chi phí đô la\".",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 27,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 9,
+          "char_len": 687,
+          "chunk_index": 4,
+          "pdf_page": 27,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.029762,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p29_para_0",
+        "text": "phân tích, rồi một đối tác, và chẳng bao lâu sau đã tự điều hành công ty đầu tư của riêng mình.\n\nViệc chứng khoán Internet phất lên và xịt xuống chắc sẽ không gây ngạc nhiên cho Graham, vì vào tháng 4 năm 1919, ông từng thu được mức sinh lợi 250% trong ngày đầu tiên kinh doanh với Savold Tire, một công ty mới trong ngành ô tô đang bùng nổ; vậy mà tới tháng 10, công ty đã bị phát hiện là lừa đảo và cổ phiếu của nó trở thành vô giá trị.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 29,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 7,
+          "char_len": 438,
+          "chunk_index": 0,
+          "pdf_page": 29,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.029462,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p29_para_2 | starter/data/sách.pdf | page 29]\nDù phải chịu sự thua lỗ gần 70% trong cuộc Đại khủng hoảng 1929-1932, Graham đã vượt qua và còn phát đạt trong hậu kỳ, thu được những khoản hời từ đống đổ nát của thị trường giá lên. Không có ghi chép chính xác nào về lợi nhuận sớm nhất của Graham, nhưng từ năm 1936 cho tới khi ông nghỉ hưu vào năm 1956, Công ty Graham-Newman của ông nhận được lãi ít nhất 14,7% mỗi năm, so với 12,2% của toàn bộ thị trường cổ phiếu - một trong những kết quả dài hạn tốt nhất trong lịch sử Phô' Wall[4].\n\n[nha-dau-tu-thong-minh-excerpt_p27_para_4 | starter/data/sách.pdf | page 27]\nĐây là sự khác biệt lớn so với lời hứa hẹn 80.000 đô la của con người vĩ đại này, và nó chỉ ra rằng ta khó có thể tin tưởng vào những lời dự báo và hứa hẹn lạc quan được. Nhưng, như một nhận xét ngoài lề, chúng ta có thể nhận thấy rằng mức sinh lợi được hiện thực hóa bằng kế hoạch 20 năm đó còn tốt hơn 8% lãi suất cộng dồn hằng năm - và điều này có được bất chấp việc nhà đầu tư bắt đầu mua bán với DJIA ở mức 300 và kết thúc ở mức định giá dựa trên mức đóng cửa năm 1948 là 177. Thành tích này có thể được coi là luận cứ thuyết phục cho nguyên tắc mua bán hằng tháng các cổ phiếu thường, mạnh, dù trải qua thuận lợi hay bất lợi - một phương pháp được gọi là \"bình quân chi phí đô la\".\n\n[nha-dau-tu-thong-minh-excerpt_p29_para_0 | starter/data/sách.pdf | page 29]\nphân tích, rồi một đối tác, và chẳng bao lâu sau đã tự điều hành công ty đầu tư của riêng mình.\n\nViệc chứng khoán Internet phất lên và xịt xuống chắc sẽ không gây ngạc nhiên cho Graham, vì vào tháng 4 năm 1919, ông từng thu được mức sinh lợi 250% trong ngày đầu tiên kinh doanh với Savold Tire, một công ty mới trong ngành ô tô đang bùng nổ; vậy mà tới tháng 10, công ty đã bị phát hiện là lừa đảo và cổ phiếu của nó trở thành vô giá trị.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p29_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p27_para_4",
+      "nha-dau-tu-thong-minh-excerpt_p29_para_0"
+    ],
+    "context_chars": 1848,
+    "elapsed_ms": 140.85,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Theo nguyên tắc cơ bản của Graham, vì sao nhà đầu tư cần tuân thủ 'số dư an toàn' (margin of safety)?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 29,
+        "evidence": "Chỉ có cách theo sát cái mà Graham gọi là \"số dư an toàn\" (\"margin of safety\") - không bao giờ mua quá đắt, cho dù sự đầu tư có hấp dẫn thế nào chăng nữa - bạn mới có thể giảm thiểu tỷ lệ rủi ro."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p21_para_2",
+        "text": "Cách tiếp cận minh mẫn đối với đầu tư kiên quyết dựa vào quy tắc biên độ an toàn (margin- of-safety) có thể gặt hái những phần thưởng giá trị. Nhưng quyết định thử với lấy những phần lợi nhuận này, thay vì thành quả chắc chắn của sự đẳu tư phòng thủ, không nên được đưa ra mà không tự vấn nhiều.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 21,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 15,
+          "char_len": 295,
+          "chunk_index": 2,
+          "pdf_page": 21,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p29_para_4",
+        "text": "Cho dù bạn có cẩn thận tới đâu, một nguy cơ không nhà đầu tư nào loại bỏ được là nguy cơ bị sai lầm. Chỉ có cách theo sát cái mà Graham gọi là \"số dư an toàn\" (\"margin of safety\") - không bao giờ mua quá đắt, cho dù sự đầu tư có hấp dẫn thế nào chăng nữa - bạn mới có thể giảm thiểu tỷ lệ rủi ro.\n\nBí mật về thành công tài chính nằm ở trong chính bạn. Nếu bạn trở thành một người suy nghĩ có phê phán, là người không bao giờ tin vào những \"thông tin thực\" của Phố Wall, và đầu tư",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 29,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 7,
+          "char_len": 479,
+          "chunk_index": 4,
+          "pdf_page": 29,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p5_para_4",
+        "text": "KHÔNG AN TOÀN VỚI Tốc ĐỘ CAO Bị lẫn lộn giữa đầu cơ và đầu tư, như Graham cảnh báo, luôn là một sai lầm. Vào những năm 1990, sự nhầm lẫn ấy đã dẫn tới sự phá hủy quy",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 5,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 31,
+          "char_len": 165,
+          "chunk_index": 4,
+          "pdf_page": 5,
+          "section": "commentary_ch1",
+          "section_title": "Bình luận về Chương 1 (Jason Zweig)"
+        },
+        "score": 0.029631,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p21_para_2 | starter/data/sách.pdf | page 21]\nCách tiếp cận minh mẫn đối với đầu tư kiên quyết dựa vào quy tắc biên độ an toàn (margin- of-safety) có thể gặt hái những phần thưởng giá trị. Nhưng quyết định thử với lấy những phần lợi nhuận này, thay vì thành quả chắc chắn của sự đẳu tư phòng thủ, không nên được đưa ra mà không tự vấn nhiều.\n\n[nha-dau-tu-thong-minh-excerpt_p29_para_4 | starter/data/sách.pdf | page 29]\nCho dù bạn có cẩn thận tới đâu, một nguy cơ không nhà đầu tư nào loại bỏ được là nguy cơ bị sai lầm. Chỉ có cách theo sát cái mà Graham gọi là \"số dư an toàn\" (\"margin of safety\") - không bao giờ mua quá đắt, cho dù sự đầu tư có hấp dẫn thế nào chăng nữa - bạn mới có thể giảm thiểu tỷ lệ rủi ro.\n\nBí mật về thành công tài chính nằm ở trong chính bạn. Nếu bạn trở thành một người suy nghĩ có phê phán, là người không bao giờ tin vào những \"thông tin thực\" của Phố Wall, và đầu tư\n\n[nha-dau-tu-thong-minh-excerpt_p5_para_4 | starter/data/sách.pdf | page 5]\nKHÔNG AN TOÀN VỚI Tốc ĐỘ CAO Bị lẫn lộn giữa đầu cơ và đầu tư, như Graham cảnh báo, luôn là một sai lầm. Vào những năm 1990, sự nhầm lẫn ấy đã dẫn tới sự phá hủy quy",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p21_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p29_para_4",
+      "nha-dau-tu-thong-minh-excerpt_p5_para_4"
+    ],
+    "context_chars": 1172,
+    "elapsed_ms": 136.68,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "John J. Raskob năm 1929 đã giả thiết rằng tiết kiệm 15 đô la mỗi tháng đầu tư vào cổ phiếu phổ thông tốt trong 20 năm sẽ tạo ra bao nhiêu tiền?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 27,
+        "evidence": "Giả thiết của ông là chỉ với lượng tiết kiệm 15 đô la đầu tư vào những cổ phiếu phổ thông tốt - với cổ tức được tái đầu tư - sẽ tạo ra lượng tài sản trị giá 80.000 đô la trong 20 năm, so với tổng lượng đầu tư chỉ có 3.600 đô la."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p27_para_3",
+        "text": "Giả thiết của ông là chỉ với lượng tiết kiệm 15 đô la đầu tư vào những cổ phiếu phổ thông tốt - với cổ tức được tái đầu tư - sẽ tạo ra lượng tài sản trị giá 80.000 đô la trong 20 năm, so với tổng lượng đầu tư chỉ có 3.600 đô la. Nếu ông trùm của General Motors đã nói đúng thì đó đúng là con đường dễ dàng dẫn tới sự giàu có. ông đã đúng tới mức độ nào? Tính toán sơ bộ của chúng tôi - dựa trên sự đầu tư giả định vào 30 cổ phiếu hình thành nên chỉ số trung bình công nghiệp Dow Jones (DJIA) - đã chỉ ra rằng nếu làm theo lời chỉ dẫn của Raskob trong giai đoạn 1929-1948, thì cổ phần của nhà đầu tư vào đầu năm 1949 sẽ có giá trị khoảng 8.500 đô la.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 27,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 9,
+          "char_len": 649,
+          "chunk_index": 3,
+          "pdf_page": 27,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p27_para_2",
+        "text": "Cuốn sách của chúng tôi hướng tới các nhà đầu tư, khác với nhà đầu cơ, và nhiệm vụ đầu tiên của chúng tôi là làm rõ và nhấn mạnh sự khác biệt gần như bị lãng quên này. Chúng tôi có thể nói ngay từ đầu, đây không phải là cuốn sách dạy \"cách kiếm tiền tỷ\". Không có con đường chắc chắn hoặc dễ dàng nào để làm giàu ở Phố Wall hay bất kỳ nơi nào khác. Có thể chỉ ra những gì chúng tôi vừa nói bằng một chút lịch sử tài chính - đặc biệt là vì có hơn một bài học có thể rút ra từ đó. Trong năm đỉnh điểm 1929, John J. Raskob, một nhân vật quan trọng trong cả nước cũng như ở Phố Wall, đã tán dương những điều lành của chủ nghĩa tư bản trong Tạp chí gia đình của phụ nữ (Ladies' Home Journal), dưới tiêu đề \"Ai cũng có thể giàu''[7].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 27,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 9,
+          "char_len": 727,
+          "chunk_index": 2,
+          "pdf_page": 27,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p13_para_4",
+        "text": "Vì thực tế rằng nếu một nhà đầu tư có một khoản tiền nhất định trong nhóm DJIA tại giá đóng cửa của nó là 874 vào cuối năm 1964 thì anh ta sẽ có một khoản lợi nhuận nhỏ sau đó vào cuối năm 1971; thậm chí ở mức giá thấp nhất (631) vào năm 1970 thì thua lỗ được thể hiện của anh ta cũng vẫn ít hơn thua lỗ của trái phiếu dài hạn loại tốt. Mặt khác, nếu anh ta chỉ giới hạn phần đầu tư trái phiếu vào trái phiếu tiết kiệm Mỹ; các chứng khoán công ty phát hành ngắn hạn hoặc các tài khoản tiết kiệm thì anh ta sẽ không bị thua lỗ về giá trị thị trường đối với số tiền gốc của mình trong giai đoạn này và anh ta sẽ nhận được mức sinh lợi cao hơn so với mức sinh lợi của các cổ phiếu tốt. Do đó, các \"công cụ tương đương tiền mặt\" thật",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 13,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 23,
+          "char_len": 729,
+          "chunk_index": 4,
+          "pdf_page": 13,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.031258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p27_para_3 | starter/data/sách.pdf | page 27]\nGiả thiết của ông là chỉ với lượng tiết kiệm 15 đô la đầu tư vào những cổ phiếu phổ thông tốt - với cổ tức được tái đầu tư - sẽ tạo ra lượng tài sản trị giá 80.000 đô la trong 20 năm, so với tổng lượng đầu tư chỉ có 3.600 đô la. Nếu ông trùm của General Motors đã nói đúng thì đó đúng là con đường dễ dàng dẫn tới sự giàu có. ông đã đúng tới mức độ nào? Tính toán sơ bộ của chúng tôi - dựa trên sự đầu tư giả định vào 30 cổ phiếu hình thành nên chỉ số trung bình công nghiệp Dow Jones (DJIA) - đã chỉ ra rằng nếu làm theo lời chỉ dẫn của Raskob trong giai đoạn 1929-1948, thì cổ phần của nhà đầu tư vào đầu năm 1949 sẽ có giá trị khoảng 8.500 đô la.\n\n[nha-dau-tu-thong-minh-excerpt_p27_para_2 | starter/data/sách.pdf | page 27]\nCuốn sách của chúng tôi hướng tới các nhà đầu tư, khác với nhà đầu cơ, và nhiệm vụ đầu tiên của chúng tôi là làm rõ và nhấn mạnh sự khác biệt gần như bị lãng quên này. Chúng tôi có thể nói ngay từ đầu, đây không phải là cuốn sách dạy \"cách kiếm tiền tỷ\". Không có con đường chắc chắn hoặc dễ dàng nào để làm giàu ở Phố Wall hay bất kỳ nơi nào khác. Có thể chỉ ra những gì chúng tôi vừa nói bằng một chút lịch sử tài chính - đặc biệt là vì có hơn một bài học có thể rút ra từ đó. Trong năm đỉnh điểm 1929, John J. Raskob, một nhân vật quan trọng trong cả nước cũng như ở Phố Wall, đã tán dương những điều lành của chủ nghĩa tư bản trong Tạp chí gia đình của phụ nữ (Ladies' Home Journal), dưới tiêu đề \"Ai cũng có thể giàu''[7].\n\n[nha-dau-tu-thong-minh-excerpt_p13_para_4 | starter/data/sách.pdf | page 13]\nVì thực tế rằng nếu một nhà đầu tư có một khoản tiền nhất định trong nhóm DJIA tại giá đóng cửa của nó là 874 vào cuối năm 1964 thì anh ta sẽ có một khoản lợi nhuận nhỏ sau đó vào cuối năm 1971; thậm chí ở mức giá thấp nhất (631) vào năm 1970 thì thua lỗ được thể hiện của anh ta cũng vẫn ít hơn thua lỗ của trái phiếu dài hạn loại tốt. Mặt khác, nếu anh ta chỉ giới hạn phần đầu tư trái phiếu vào trái phiếu tiết kiệm Mỹ; các chứng khoán công ty phát hành ngắn hạn hoặc các tài khoản tiết kiệm thì anh ta sẽ không bị thua lỗ về giá trị thị trường đối với số tiền gốc của mình trong giai đoạn này và anh ta sẽ nhận được mức sinh lợi cao hơn so với mức sinh lợi của các cổ phiếu tốt. Do đó, các \"công cụ tương đương tiền mặt\" thật",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p27_para_3",
+      "nha-dau-tu-thong-minh-excerpt_p27_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p13_para_4"
+    ],
+    "context_chars": 2340,
+    "elapsed_ms": 142.25,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Trong Phần mở đầu, cuốn sách này sẽ dạy cho người đọc ba bài học mạnh mẽ nào theo bình luận của Jason Zweig?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 20,
+        "evidence": "Làm thế nào để bạn giảm thiểu đến mức thấp nhất khả năng nhận lỗ không thể hoàn lại; Làm thế nào để bạn tối đa hóa các cơ hội thu lợi kéo dài; Làm thế nào để bạn kiểm soát được hành vi thất sách vốn khiến nhiều nhà đắu tư không đạt được triển vọng tối đa của mình."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p20_para_0",
+        "text": "BÌNH LUẬN VÊ PHẦN MỞ ĐẦU Nếu bạn đã xây lâu đài trên không, công trình của bạn không hẳn đã mất; đó là nơi chúng thuộc về. Giờ hãy xây nen móng cho chúng.\n\n-Henry David Thoreau, Walden Hãy chú ý rằng Graham đã tuyên bố từ đầu rằng cuốn sách này sẽ không dạy bạn cách thắng thị trường. Không có cuốn sách chân thực nào có thể làm như vậy.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 20,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 16,
+          "char_len": 337,
+          "chunk_index": 0,
+          "pdf_page": 20,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p27_para_0",
+        "text": "PHẦN MỞ ĐẦU: Những gì cuốn sách này hy vọng sẽ đạt được Mục đích của cuốn sách này, dưới dạng thích hợp cho những người bình thường, là hướng dẫn việc tiếp nhận và thực hiện một phương châm đầu tư. Sách sẽ không nói nhiều về kỹ thuật phân tích chứng khoán, mà trọng tâm phần lớn được đặt vào các nguyên tắc đầu tư và thái độ của nhà đầu tư. Tuy nhiên, chúng tôi sẽ cung cấp một số so sánh súc tích về những chứng khoán nhất định - chủ yếu là theo các cặp xuất hiện cạnh nhau trong danh sách niêm yết của sở Giao dịch Chứng khoán New York - để nhấn mạnh một cách cụ thể những yếu tố quan trọng liên quan tới các lựa chọn cụ thể trong cổ phiếu thường (cổ phiếu phổ thông).",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 27,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 9,
+          "char_len": 670,
+          "chunk_index": 0,
+          "pdf_page": 27,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.032002,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p20_para_1",
+        "text": "Đổi lại, cuốn sách này sẽ dạy bạn ba bài học mạnh mẽ: Làm thế nào để bạn giảm thiểu đến mức thấp nhất khả năng nhận lỗ không thể hoàn lại; Làm thế nào để bạn tối đa hóa các cơ hội thu lợi kéo dài; Làm thế nào để bạn kiểm soát được hành vi thất sách vốn khiến nhiều nhà đắu tư không đạt được triển vọng tối đa của mình. Vào thời kỳ bùng nổ cuối những năm 1990, khi các cổ phiếu công nghệ dường như cứ nhân đôi giá trị mỗi ngày, ý niệm rằng bạn có thể mất hết tiền thật buồn cười. Nhưng đến cuối 2002, nhiều cổ phiếu mạng và truyền thông đã mất 95% hoặc hơn thế giá trị của mình. Một khi đã bị mất 95% tiền của mình, bạn phải thu lời được 1.900% chỉ để trở lại vạch xuất phát của mình[17]. Liều mình một cách ngu ngốc có thể đưa bạn vào một cái hố sâu đến nỗi gần như không thể chui lên.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 20,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 16,
+          "char_len": 785,
+          "chunk_index": 1,
+          "pdf_page": 20,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.031778,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p20_para_0 | starter/data/sách.pdf | page 20]\nBÌNH LUẬN VÊ PHẦN MỞ ĐẦU Nếu bạn đã xây lâu đài trên không, công trình của bạn không hẳn đã mất; đó là nơi chúng thuộc về. Giờ hãy xây nen móng cho chúng.\n\n-Henry David Thoreau, Walden Hãy chú ý rằng Graham đã tuyên bố từ đầu rằng cuốn sách này sẽ không dạy bạn cách thắng thị trường. Không có cuốn sách chân thực nào có thể làm như vậy.\n\n[nha-dau-tu-thong-minh-excerpt_p27_para_0 | starter/data/sách.pdf | page 27]\nPHẦN MỞ ĐẦU: Những gì cuốn sách này hy vọng sẽ đạt được Mục đích của cuốn sách này, dưới dạng thích hợp cho những người bình thường, là hướng dẫn việc tiếp nhận và thực hiện một phương châm đầu tư. Sách sẽ không nói nhiều về kỹ thuật phân tích chứng khoán, mà trọng tâm phần lớn được đặt vào các nguyên tắc đầu tư và thái độ của nhà đầu tư. Tuy nhiên, chúng tôi sẽ cung cấp một số so sánh súc tích về những chứng khoán nhất định - chủ yếu là theo các cặp xuất hiện cạnh nhau trong danh sách niêm yết của sở Giao dịch Chứng khoán New York - để nhấn mạnh một cách cụ thể những yếu tố quan trọng liên quan tới các lựa chọn cụ thể trong cổ phiếu thường (cổ phiếu phổ thông).\n\n[nha-dau-tu-thong-minh-excerpt_p20_para_1 | starter/data/sách.pdf | page 20]\nĐổi lại, cuốn sách này sẽ dạy bạn ba bài học mạnh mẽ: Làm thế nào để bạn giảm thiểu đến mức thấp nhất khả năng nhận lỗ không thể hoàn lại; Làm thế nào để bạn tối đa hóa các cơ hội thu lợi kéo dài; Làm thế nào để bạn kiểm soát được hành vi thất sách vốn khiến nhiều nhà đắu tư không đạt được triển vọng tối đa của mình. Vào thời kỳ bùng nổ cuối những năm 1990, khi các cổ phiếu công nghệ dường như cứ nhân đôi giá trị mỗi ngày, ý niệm rằng bạn có thể mất hết tiền thật buồn cười. Nhưng đến cuối 2002, nhiều cổ phiếu mạng và truyền thông đã mất 95% hoặc hơn thế giá trị của mình. Một khi đã bị mất 95% tiền của mình, bạn phải thu lời được 1.900% chỉ để trở lại vạch xuất phát của mình[17]. Liều mình một cách ngu ngốc có thể đưa bạn vào một cái hố sâu đến nỗi gần như không thể chui lên.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p20_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p27_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p20_para_1"
+    ],
+    "context_chars": 2027,
+    "elapsed_ms": 124.88,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Trong phần bình luận về Phần mở đầu, Jason Zweig kể Isaac Newton đã mất bao nhiêu tiền khi quay lại mua cổ phiếu Công ty South Sea?",
+    "filter": {
+      "section": "commentary_intro"
+    },
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 19,
+        "evidence": "Nevvton lại nhảy vào, với mức giá cao hơn nhiều - và mất đứt 20.000 bảng (khoảng hơn 3 triệu đô la theo giá tiền ngày nay)."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p19_para_0",
+        "text": "Ngược thời gian trở lại mùa xuân năm 1720, Tôn ông[22] Isaac Nevvton sở hữu cổ phần của Công ty South Sea, một cổ phiếu nóng nhất nước Anh. Nhận thấy rằng thị trường đang trở nên mất kiểm soát, nhà vật lý vĩ đại đã nói rằng ông \"có thể tính toán được sự chuyển động của các hành tinh trên trời, nhưng không thể tính toán được sự điên rồ của con người\". Nevvton đã bán tống đi cổ phần South Sea của mình, đút túi 100% lợi nhuận, tức 7.000 bảng. Nhưng chỉ vài tháng sau, bị cuốn theo nhiệt huyết điên cuồng của thị trường, Nevvton lại nhảy vào, với mức giá cao hơn nhiều - và mất đứt 20.000 bảng (khoảng hơn 3 triệu đô la theo giá tiền ngày nay). Từ đó cho tới cuối đời, ông cấm ai nói hai từ \"South Sea\" trước mặt mình[23].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 19,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 17,
+          "char_len": 722,
+          "chunk_index": 0,
+          "pdf_page": 19,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p18_para_1",
+        "text": "Phần nhiều những thiệt hại này có thể tránh được (và đã được tránh) bởi các nhà đầu tư đã sống và làm theo các quy tắc của Graham. Theo lời của Graham, \"trong khi sự nhiệt tình có thể là cằn thiết để đạt những thành tựu vĩ đại ở những chỗ khác, ở Phố Wall nó gãn như chắc chắn sẽ dẫn tới tai họa\". Bằng cách để mình bị cuốn theo cổ phiếu Internet, cổ phiếu \"tăng giá nhanh\", và cổ phiếu nói chung, nhiều người đã mắc phải những sai lầm ngớ ngẩn như Isaac Nevvton. Họ để cho sự đánh giá của các nhà đầu tư khác quyết định sự đánh giá của chính mình.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 18,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 18,
+          "char_len": 548,
+          "chunk_index": 1,
+          "pdf_page": 18,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p20_para_0",
+        "text": "BÌNH LUẬN VÊ PHẦN MỞ ĐẦU Nếu bạn đã xây lâu đài trên không, công trình của bạn không hẳn đã mất; đó là nơi chúng thuộc về. Giờ hãy xây nen móng cho chúng.\n\n-Henry David Thoreau, Walden Hãy chú ý rằng Graham đã tuyên bố từ đầu rằng cuốn sách này sẽ không dạy bạn cách thắng thị trường. Không có cuốn sách chân thực nào có thể làm như vậy.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 20,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 16,
+          "char_len": 337,
+          "chunk_index": 0,
+          "pdf_page": 20,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.031514,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p19_para_0 | starter/data/sách.pdf | page 19]\nNgược thời gian trở lại mùa xuân năm 1720, Tôn ông[22] Isaac Nevvton sở hữu cổ phần của Công ty South Sea, một cổ phiếu nóng nhất nước Anh. Nhận thấy rằng thị trường đang trở nên mất kiểm soát, nhà vật lý vĩ đại đã nói rằng ông \"có thể tính toán được sự chuyển động của các hành tinh trên trời, nhưng không thể tính toán được sự điên rồ của con người\". Nevvton đã bán tống đi cổ phần South Sea của mình, đút túi 100% lợi nhuận, tức 7.000 bảng. Nhưng chỉ vài tháng sau, bị cuốn theo nhiệt huyết điên cuồng của thị trường, Nevvton lại nhảy vào, với mức giá cao hơn nhiều - và mất đứt 20.000 bảng (khoảng hơn 3 triệu đô la theo giá tiền ngày nay). Từ đó cho tới cuối đời, ông cấm ai nói hai từ \"South Sea\" trước mặt mình[23].\n\n[nha-dau-tu-thong-minh-excerpt_p18_para_1 | starter/data/sách.pdf | page 18]\nPhần nhiều những thiệt hại này có thể tránh được (và đã được tránh) bởi các nhà đầu tư đã sống và làm theo các quy tắc của Graham. Theo lời của Graham, \"trong khi sự nhiệt tình có thể là cằn thiết để đạt những thành tựu vĩ đại ở những chỗ khác, ở Phố Wall nó gãn như chắc chắn sẽ dẫn tới tai họa\". Bằng cách để mình bị cuốn theo cổ phiếu Internet, cổ phiếu \"tăng giá nhanh\", và cổ phiếu nói chung, nhiều người đã mắc phải những sai lầm ngớ ngẩn như Isaac Nevvton. Họ để cho sự đánh giá của các nhà đầu tư khác quyết định sự đánh giá của chính mình.\n\n[nha-dau-tu-thong-minh-excerpt_p20_para_0 | starter/data/sách.pdf | page 20]\nBÌNH LUẬN VÊ PHẦN MỞ ĐẦU Nếu bạn đã xây lâu đài trên không, công trình của bạn không hẳn đã mất; đó là nơi chúng thuộc về. Giờ hãy xây nen móng cho chúng.\n\n-Henry David Thoreau, Walden Hãy chú ý rằng Graham đã tuyên bố từ đầu rằng cuốn sách này sẽ không dạy bạn cách thắng thị trường. Không có cuốn sách chân thực nào có thể làm như vậy.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p19_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p18_para_1",
+      "nha-dau-tu-thong-minh-excerpt_p20_para_0"
+    ],
+    "context_chars": 1842,
+    "elapsed_ms": 13.83,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Theo Jason Zweig ở bình luận Phần mở đầu, nhà đầu tư chỉ nên đón nhận thị trường giá xuống với điều kiện gì?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 17,
+        "evidence": "Và ngược lại (với điều kiện bạn có đủ tiền chi tiêu trong tay), bạn nên đón nhận một thị trường giá xuống, vì nó làm chứng khoán có thể bán được[27]."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p17_para_4",
+        "text": "Như Graham đã thể hiện một cách tuyệt vời trong chương 8, điều này là ngược đời. Nhà đầu tư thông minh nhận ra rằng chứng khoán trở nên rủi ro hơn, chứ không phải ít rủi ro hơn, khi mà giá của chúng tăng lên - và rủi ro ít hơn, chứ không phải nhiều hơn, khi mà giá của chúng giảm. Một nhà đầu tư thông minh sẽ sợ một thị trường giá lên, vì nó làm cho chứng khoán đắt hơn. Và ngược lại (với điều kiện bạn có đủ tiền chi tiêu trong tay), bạn nên đón nhận một thị trường giá xuống, vì nó làm chứng khoán có thể bán được[27].\n\nVậy nên bạn hãy khắc vào tim rằng: Cái chết của thị trường giá lên không tệ như mọi người vẫn nghĩ. Nhờ vào sự giảm giá chứng khoán, bây giờ là thời điểm an toàn hơn - và sáng suốt hơn - để bạn gây dựng của cải. Hãy đọc tiếp và để Graham chỉ bạn cách làm điều này.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 17,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 19,
+          "char_len": 787,
+          "chunk_index": 4,
+          "pdf_page": 17,
+          "section": "commentary_intro",
+          "section_title": "Bình luận về Phần mở đầu (Jason Zweig)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p30_para_2",
+        "text": "(Ngày nay, sau thị trường giá lên hỗn loạn vào cuối những năm 1990 và thị trường giá xuống ghê gớm bắt đầu vào đầu năm 2000, cuốn Nhà đầu tư thông minh còn mang tính tiên tri hơn bao giờ hết).",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 30,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 6,
+          "char_len": 192,
+          "chunk_index": 2,
+          "pdf_page": 30,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.031025,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p30_para_0",
+        "text": "Chú giải vê Benjamin Graham của Jason Zweig Benjamin Graham là ai, và tại sao bạn nên nghe lời ông?\n\nGraham không chỉ là một trong những nhà đầu tư giỏi nhất trên đời; ông còn là nhà tư tưởng về thực hành đầu tư vĩ đại nhất của mọi thời đại. Trước khi có Graham, các nhà quản lý tiền tệ hành động giống như một phường hội thời trung cổ, phần lớn bị chi phối bởi những điều mê tín, đoán mò và các nghi lễ kỳ lạ. Cuốn Security Analysis (Phân tích chứng khoán) của Graham là quyển sách giáo khoa đầu tiên biến cái vòng cổ hủ đó thành một ngành nghề hiện đại[1].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 30,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 6,
+          "char_len": 558,
+          "chunk_index": 0,
+          "pdf_page": 30,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.03101,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p17_para_4 | starter/data/sách.pdf | page 17]\nNhư Graham đã thể hiện một cách tuyệt vời trong chương 8, điều này là ngược đời. Nhà đầu tư thông minh nhận ra rằng chứng khoán trở nên rủi ro hơn, chứ không phải ít rủi ro hơn, khi mà giá của chúng tăng lên - và rủi ro ít hơn, chứ không phải nhiều hơn, khi mà giá của chúng giảm. Một nhà đầu tư thông minh sẽ sợ một thị trường giá lên, vì nó làm cho chứng khoán đắt hơn. Và ngược lại (với điều kiện bạn có đủ tiền chi tiêu trong tay), bạn nên đón nhận một thị trường giá xuống, vì nó làm chứng khoán có thể bán được[27].\n\nVậy nên bạn hãy khắc vào tim rằng: Cái chết của thị trường giá lên không tệ như mọi người vẫn nghĩ. Nhờ vào sự giảm giá chứng khoán, bây giờ là thời điểm an toàn hơn - và sáng suốt hơn - để bạn gây dựng của cải. Hãy đọc tiếp và để Graham chỉ bạn cách làm điều này.\n\n[nha-dau-tu-thong-minh-excerpt_p30_para_2 | starter/data/sách.pdf | page 30]\n(Ngày nay, sau thị trường giá lên hỗn loạn vào cuối những năm 1990 và thị trường giá xuống ghê gớm bắt đầu vào đầu năm 2000, cuốn Nhà đầu tư thông minh còn mang tính tiên tri hơn bao giờ hết).\n\n[nha-dau-tu-thong-minh-excerpt_p30_para_0 | starter/data/sách.pdf | page 30]\nChú giải vê Benjamin Graham của Jason Zweig Benjamin Graham là ai, và tại sao bạn nên nghe lời ông?\n\nGraham không chỉ là một trong những nhà đầu tư giỏi nhất trên đời; ông còn là nhà tư tưởng về thực hành đầu tư vĩ đại nhất của mọi thời đại. Trước khi có Graham, các nhà quản lý tiền tệ hành động giống như một phường hội thời trung cổ, phần lớn bị chi phối bởi những điều mê tín, đoán mò và các nghi lễ kỳ lạ. Cuốn Security Analysis (Phân tích chứng khoán) của Graham là quyển sách giáo khoa đầu tiên biến cái vòng cổ hủ đó thành một ngành nghề hiện đại[1].",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p17_para_4",
+      "nha-dau-tu-thong-minh-excerpt_p30_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p30_para_0"
+    ],
+    "context_chars": 1772,
+    "elapsed_ms": 120.11,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Trong giáo trình Security Analysis năm 1934, Graham đã định nghĩa hoạt động đầu tư gồm những tiêu chí nào?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 16,
+        "evidence": "Hoạt động đầu tư là hoạt động dựa trên sự phân tích kỹ lưỡng, hứa hẹn sự an toàn của vốn và mang lại một phần lời lãi thỏa đáng. Các hoạt động không đáp ứng được các yêu cầu đó là hoạt động đău cơ."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p16_para_1",
+        "text": "Đâu tư hay đâu cơ Điêu chúng ta muốn nói lên bằng thuật ngữ \"nhà đằu tu\" (investor) là gì? Trong suốt cuốn sách, thuật ngữ này sẽ được sử dụng theo nghĩa tương phản với \"nhà đầu cơ\" (speculator). Ngay từ năm 1934, trong giáo trình Security Analysis (Phân tích chứng khoán)[28] của mình, chúng tôi đã thử tìm cách trình bày một cách chính xác sự khác nhau giữa hai thuật ngữ đó như sau: \"Hoạt động đầu tư là hoạt động dựa trên sự phân tích kỹ lưỡng, hứa hẹn sự an toàn của vốn và mang lại một phần lời lãi thỏa đáng. Các hoạt động không đáp ứng được các yêu cầu đó là hoạt động đău cơ.”",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 16,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 20,
+          "char_len": 585,
+          "chunk_index": 1,
+          "pdf_page": 16,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p5_para_1",
+        "text": "Định nghĩa về đău tư của Graham không thế rõ hơn được nữa: \"Hoạt động đău tư là một hoạt động mà thông qua sự phân tích kỹ lưỡng, hứa hẹn sự an toàn vốn và mang lại mức sinh lợi thỏa đáng.\"[49] Hãy chú ý rằng, theo Graham, đầu tư gồm ba yếu tố ngang bằng nhau: bạn phải phân tích kỹ lưỡng một công ty và sự vững chắc của nèn tảng kinh doanh của nó; trước khi bạn mua cổ phiếu công ty đó; bạn phải bảo vệ mình cẩn thận trước các tổn thất nghiêm trọng; bạn cãn phải mong đạt được kết quả \"thỏa đáng\", chứ không phải là phi thường.\n\nMột nhà đầu tư tính toán xem một cổ phiếu có giá trị như thế nào dựa trên giá trị của doanh nghiệp đó.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 5,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 31,
+          "char_len": 632,
+          "chunk_index": 1,
+          "pdf_page": 5,
+          "section": "commentary_ch1",
+          "section_title": "Bình luận về Chương 1 (Jason Zweig)"
+        },
+        "score": 0.032266,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p30_para_0",
+        "text": "Chú giải vê Benjamin Graham của Jason Zweig Benjamin Graham là ai, và tại sao bạn nên nghe lời ông?\n\nGraham không chỉ là một trong những nhà đầu tư giỏi nhất trên đời; ông còn là nhà tư tưởng về thực hành đầu tư vĩ đại nhất của mọi thời đại. Trước khi có Graham, các nhà quản lý tiền tệ hành động giống như một phường hội thời trung cổ, phần lớn bị chi phối bởi những điều mê tín, đoán mò và các nghi lễ kỳ lạ. Cuốn Security Analysis (Phân tích chứng khoán) của Graham là quyển sách giáo khoa đầu tiên biến cái vòng cổ hủ đó thành một ngành nghề hiện đại[1].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 30,
+        "metadata": {
+          "author_role": "zweig",
+          "book_page": 6,
+          "char_len": 558,
+          "chunk_index": 0,
+          "pdf_page": 30,
+          "section": "commentary_graham_intro",
+          "section_title": "Chú giải về Benjamin Graham (Jason Zweig)"
+        },
+        "score": 0.031514,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p16_para_1 | starter/data/sách.pdf | page 16]\nĐâu tư hay đâu cơ Điêu chúng ta muốn nói lên bằng thuật ngữ \"nhà đằu tu\" (investor) là gì? Trong suốt cuốn sách, thuật ngữ này sẽ được sử dụng theo nghĩa tương phản với \"nhà đầu cơ\" (speculator). Ngay từ năm 1934, trong giáo trình Security Analysis (Phân tích chứng khoán)[28] của mình, chúng tôi đã thử tìm cách trình bày một cách chính xác sự khác nhau giữa hai thuật ngữ đó như sau: \"Hoạt động đầu tư là hoạt động dựa trên sự phân tích kỹ lưỡng, hứa hẹn sự an toàn của vốn và mang lại một phần lời lãi thỏa đáng. Các hoạt động không đáp ứng được các yêu cầu đó là hoạt động đău cơ.”\n\n[nha-dau-tu-thong-minh-excerpt_p5_para_1 | starter/data/sách.pdf | page 5]\nĐịnh nghĩa về đău tư của Graham không thế rõ hơn được nữa: \"Hoạt động đău tư là một hoạt động mà thông qua sự phân tích kỹ lưỡng, hứa hẹn sự an toàn vốn và mang lại mức sinh lợi thỏa đáng.\"[49] Hãy chú ý rằng, theo Graham, đầu tư gồm ba yếu tố ngang bằng nhau: bạn phải phân tích kỹ lưỡng một công ty và sự vững chắc của nèn tảng kinh doanh của nó; trước khi bạn mua cổ phiếu công ty đó; bạn phải bảo vệ mình cẩn thận trước các tổn thất nghiêm trọng; bạn cãn phải mong đạt được kết quả \"thỏa đáng\", chứ không phải là phi thường.\n\nMột nhà đầu tư tính toán xem một cổ phiếu có giá trị như thế nào dựa trên giá trị của doanh nghiệp đó.\n\n[nha-dau-tu-thong-minh-excerpt_p30_para_0 | starter/data/sách.pdf | page 30]\nChú giải vê Benjamin Graham của Jason Zweig Benjamin Graham là ai, và tại sao bạn nên nghe lời ông?\n\nGraham không chỉ là một trong những nhà đầu tư giỏi nhất trên đời; ông còn là nhà tư tưởng về thực hành đầu tư vĩ đại nhất của mọi thời đại. Trước khi có Graham, các nhà quản lý tiền tệ hành động giống như một phường hội thời trung cổ, phần lớn bị chi phối bởi những điều mê tín, đoán mò và các nghi lễ kỳ lạ. Cuốn Security Analysis (Phân tích chứng khoán) của Graham là quyển sách giáo khoa đầu tiên biến cái vòng cổ hủ đó thành một ngành nghề hiện đại[1].",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p16_para_1",
+      "nha-dau-tu-thong-minh-excerpt_p5_para_1",
+      "nha-dau-tu-thong-minh-excerpt_p30_para_0"
+    ],
+    "context_chars": 2008,
+    "elapsed_ms": 122.33,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Năm 1948, kết quả khảo sát cho thấy có bao nhiêu phần trăm công chúng phản đối việc mua cổ phiếu thường và vì hai lý do gì?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 15,
+        "evidence": "khi mà trên 90% những người được hỏi cho thấy họ phản đối việc mua các cổ phiếu thường[30]. Khoảng một nửa số người cho biết lý do là \"không an toàn, một sự đánh bạc\", và một nửa thì nêu lý do là \"không thạo\"[31]."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p15_para_0",
+        "text": "Tờ báo đã sử dụng từ \"nhà đầu tu\" trong những trường hợp như vậy bởi vì theo ngôn ngữ dễ dãi của Phố Wall, bất kỳ ai mua hoặc bán chứng khoán đều là nhà đầu tư , bất kể anh ta mua cái gì, nhằm mục đích gì, tại giá nào, mua bằng tiền mặt hay tiền bảo chứng. Hãy so sánh điều này với thái độ của công chúng đối với các cổ phiếu thường năm 1948, khi mà trên 90% những người được hỏi cho thấy họ phản đối việc mua các cổ phiếu thường[30]. Khoảng một nửa số người cho biết lý do là \"không an toàn, một sự đánh bạc\", và một nửa thì nêu lý do là \"không thạo\"[31].",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 15,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 21,
+          "char_len": 556,
+          "chunk_index": 0,
+          "pdf_page": 15,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p22_para_0",
+        "text": "báo trên một tạp chí của phụ nữ từ nhiều năm trước, chúng tôi đã khuyên người đọc mua cổ phiếu giống như họ mua đồ tạp hóa, chứ không như mua nước hoa. Các thua lỗ tệ hại thật sự trong vài năm gần đây (và trong cả nhiều dịp tương tự trước đó), đã xảy ra đối với các phát hành cổ phiếu thường, khi người mua quên hỏi \"Bao nhiêu?”",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 22,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 14,
+          "char_len": 328,
+          "chunk_index": 0,
+          "pdf_page": 22,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.031025,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p13_para_1",
+        "text": "Cũng nên chỉ ra rằng các phép tính toán trên cho thẩy kỳ vọng về tốc độ tăng của thị trường cổ phiếu thẩp hơn rất nhiều so với mức tăng thực tế trong khoảng thời gian từ năm 1949 đến năm 1964. Mức tăng này cho giá trị trung bình cao hơn nhiều con số 10% đối với các cổ phiếu được niêm yết xét tổng thể, và nói chung người ta coi điều này như sự đảm bảo rằng trong tương lai cũng sẽ có những kết quả thỏa đáng như vậy. Rất ít người chịu nhìn nhận một cách nghiêm túc về khả năng là mức tăng cao trong quá khứ đồng nghĩa với việc giá cổ phiếu \"bây giờ quá cao\", và do đó \"những kết quả tuyệt vời kể từ năm 1949 sẽ không dẫn tới những kết quả rất tốt mà là xấu trong tương lai\".[35] 2.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 13,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 23,
+          "char_len": 682,
+          "chunk_index": 1,
+          "pdf_page": 13,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.030118,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p15_para_0 | starter/data/sách.pdf | page 15]\nTờ báo đã sử dụng từ \"nhà đầu tu\" trong những trường hợp như vậy bởi vì theo ngôn ngữ dễ dãi của Phố Wall, bất kỳ ai mua hoặc bán chứng khoán đều là nhà đầu tư , bất kể anh ta mua cái gì, nhằm mục đích gì, tại giá nào, mua bằng tiền mặt hay tiền bảo chứng. Hãy so sánh điều này với thái độ của công chúng đối với các cổ phiếu thường năm 1948, khi mà trên 90% những người được hỏi cho thấy họ phản đối việc mua các cổ phiếu thường[30]. Khoảng một nửa số người cho biết lý do là \"không an toàn, một sự đánh bạc\", và một nửa thì nêu lý do là \"không thạo\"[31].\n\n[nha-dau-tu-thong-minh-excerpt_p22_para_0 | starter/data/sách.pdf | page 22]\nbáo trên một tạp chí của phụ nữ từ nhiều năm trước, chúng tôi đã khuyên người đọc mua cổ phiếu giống như họ mua đồ tạp hóa, chứ không như mua nước hoa. Các thua lỗ tệ hại thật sự trong vài năm gần đây (và trong cả nhiều dịp tương tự trước đó), đã xảy ra đối với các phát hành cổ phiếu thường, khi người mua quên hỏi \"Bao nhiêu?”\n\n[nha-dau-tu-thong-minh-excerpt_p13_para_1 | starter/data/sách.pdf | page 13]\nCũng nên chỉ ra rằng các phép tính toán trên cho thẩy kỳ vọng về tốc độ tăng của thị trường cổ phiếu thẩp hơn rất nhiều so với mức tăng thực tế trong khoảng thời gian từ năm 1949 đến năm 1964. Mức tăng này cho giá trị trung bình cao hơn nhiều con số 10% đối với các cổ phiếu được niêm yết xét tổng thể, và nói chung người ta coi điều này như sự đảm bảo rằng trong tương lai cũng sẽ có những kết quả thỏa đáng như vậy. Rất ít người chịu nhìn nhận một cách nghiêm túc về khả năng là mức tăng cao trong quá khứ đồng nghĩa với việc giá cổ phiếu \"bây giờ quá cao\", và do đó \"những kết quả tuyệt vời kể từ năm 1949 sẽ không dẫn tới những kết quả rất tốt mà là xấu trong tương lai\".[35] 2.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p15_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p22_para_0",
+      "nha-dau-tu-thong-minh-excerpt_p13_para_1"
+    ],
+    "context_chars": 1801,
+    "elapsed_ms": 115.49,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Trong Chương 1, Graham đặt ra giới hạn tỷ lệ tối thiểu và tối đa cho trái phiếu và cổ phiếu thường của nhà đầu tư phòng vệ là bao nhiêu?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 14,
+        "evidence": "phần trái phiếu không bao giờ được ít hơn 25% hoặc nhiều hơn 75%, và điều ngược lại là cắn thiết cho phần cổ phiếu thường; lựa chọn đơn giản nhất của anh ta là giữ một tỷ lệ 50-50 giữa chúng"
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p14_para_4",
+        "text": "1. Những gi chúng tôi đã nói sáu năm trước Chúng tôi đã khuyến khích nhà đău tư chia đèu tài sản chứng khoán của mình giữa các trái phiếu cấp cao và các cổ phiếu thường hàng đầu; phần trái phiếu không bao giờ được ít hơn 25% hoặc nhiều hơn 75%, và điều ngược lại là cắn thiết cho phần cổ phiếu thường; lựa chọn đơn giản nhất của anh ta là giữ một tỷ lệ 50-50 giữa chúng, và có điều chỉnh đề khôi phục lại cân bằng khi mà các diễn biến của thị trường khiến nó lệch đi, chẳng hạn, khoảng 5%. Một phương châm thay thế khác là anh ta có thể giâm phần cổ phiếu thường xuống 25% \"nếu anh ta cãm thẩy thị trường cao một cách nguy hiểm\", và ngược lại có thể tăng nó lên đến 75% \"nếu anh ta cãm thấy rằng sự giâm giá cổ phiếu khiến chúng mỗi lúc một hấp dẩn hơn\".",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 14,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 22,
+          "char_len": 754,
+          "chunk_index": 4,
+          "pdf_page": 14,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p25_para_5",
+        "text": "Trong các phiên bản sách trước, chúng tôi đã liên tục khuyên các nhà đầu tư thận trọng nên dành ít nhất 25% danh mục đầu tư của mình cho cổ phiếu thường, trong khi chúng tôi nói chung thường thiên về sự phân chia 50-50 giữa cổ phiếu và trái phiếu. Chúng tôi hiện giờ phải suy xét xem liệu lợi thế lớn của trái phiếu so với cổ phiếu hiện nay có thể biện hộ cho một phương thức đầu tư toàn trái phiếu cho tới khi một mối quan hệ hợp lý hơn",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 25,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 11,
+          "char_len": 437,
+          "chunk_index": 5,
+          "pdf_page": 25,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.031258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p11_para_3",
+        "text": "Do đó; sau cuộc thảo luận ngắn về các cân nhắc chủ yếu này, chúng tôi một lằn nữa nói đến phương châm thỏa hiệp cơ bản cho các nhà đầu tư phòng vệ - tức là họ luôn luôn phải có một phần quỹ đáng kể dành cho phần nắm giữ kiểu trái phiếu và một phần đáng kể khác dành cho cổ phần chủ sở hữu. Tuy nhiên, họ vẫn có thể chọn giữa việc duy trì một sự phân chia đơn giản 50-50 giữa hai thành phần này, hoặc một tỷ lệ khác, dựa trên đánh giá của họ, dao động từ thấp nhất là 25% và cao nhất là 75% mỗi loại. Chúng tôi sẽ đưa ra cách nhìn chi tiết hơn về các phương châm khác nhau này trong một chương sau này.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 11,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 25,
+          "char_len": 601,
+          "chunk_index": 3,
+          "pdf_page": 11,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.030886,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p14_para_4 | starter/data/sách.pdf | page 14]\n1. Những gi chúng tôi đã nói sáu năm trước Chúng tôi đã khuyến khích nhà đău tư chia đèu tài sản chứng khoán của mình giữa các trái phiếu cấp cao và các cổ phiếu thường hàng đầu; phần trái phiếu không bao giờ được ít hơn 25% hoặc nhiều hơn 75%, và điều ngược lại là cắn thiết cho phần cổ phiếu thường; lựa chọn đơn giản nhất của anh ta là giữ một tỷ lệ 50-50 giữa chúng, và có điều chỉnh đề khôi phục lại cân bằng khi mà các diễn biến của thị trường khiến nó lệch đi, chẳng hạn, khoảng 5%. Một phương châm thay thế khác là anh ta có thể giâm phần cổ phiếu thường xuống 25% \"nếu anh ta cãm thẩy thị trường cao một cách nguy hiểm\", và ngược lại có thể tăng nó lên đến 75% \"nếu anh ta cãm thấy rằng sự giâm giá cổ phiếu khiến chúng mỗi lúc một hấp dẩn hơn\".\n\n[nha-dau-tu-thong-minh-excerpt_p25_para_5 | starter/data/sách.pdf | page 25]\nTrong các phiên bản sách trước, chúng tôi đã liên tục khuyên các nhà đầu tư thận trọng nên dành ít nhất 25% danh mục đầu tư của mình cho cổ phiếu thường, trong khi chúng tôi nói chung thường thiên về sự phân chia 50-50 giữa cổ phiếu và trái phiếu. Chúng tôi hiện giờ phải suy xét xem liệu lợi thế lớn của trái phiếu so với cổ phiếu hiện nay có thể biện hộ cho một phương thức đầu tư toàn trái phiếu cho tới khi một mối quan hệ hợp lý hơn\n\n[nha-dau-tu-thong-minh-excerpt_p11_para_3 | starter/data/sách.pdf | page 11]\nDo đó; sau cuộc thảo luận ngắn về các cân nhắc chủ yếu này, chúng tôi một lằn nữa nói đến phương châm thỏa hiệp cơ bản cho các nhà đầu tư phòng vệ - tức là họ luôn luôn phải có một phần quỹ đáng kể dành cho phần nắm giữ kiểu trái phiếu và một phần đáng kể khác dành cho cổ phần chủ sở hữu. Tuy nhiên, họ vẫn có thể chọn giữa việc duy trì một sự phân chia đơn giản 50-50 giữa hai thành phần này, hoặc một tỷ lệ khác, dựa trên đánh giá của họ, dao động từ thấp nhất là 25% và cao nhất là 75% mỗi loại. Chúng tôi sẽ đưa ra cách nhìn chi tiết hơn về các phương châm khác nhau này trong một chương sau này.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p14_para_4",
+      "nha-dau-tu-thong-minh-excerpt_p25_para_5",
+      "nha-dau-tu-thong-minh-excerpt_p11_para_3"
+    ],
+    "context_chars": 2027,
+    "elapsed_ms": 114.37,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Trong Chương 1 của Graham, mức sinh lợi cổ tức của cổ phiếu loại DJIA vào cuối năm 1964 và lúc Dow ở mức 900 là bao nhiêu?",
+    "filter": {
+      "section": "chapter_1"
+    },
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 13,
+        "evidence": "trong khi chúng tôi đang viết lúc này (lúc \"Dow\" ờ mức 900), mức sinh lợi này là thẩp hơn 3,5%, so với 3,2% vào cuối năm 1964."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p13_para_2",
+        "text": "Những gì đã diễn ra từ sau năm 1964 Thay đổi lớn kế từ năm 1964 là sự tăng mức lai suất của các trái phiếu hàng đầu lên tới mức cao kỷ lục, mặc dù kể từ khi đó cũng có sự hồi phục đáng kể từ những mức giá thấp nhất của năm 1970. Mức sinh lợi có thể thu được từ các cổ phiếu công ty mới phát hành tốt hiện giờ là khoảng 7,5%, cao hơn nhiều so với mức 4,5% của năm 1964. Trong khi đó, mức sinh lợi cổ tức của các cổ phiếu loại DJIA[36] tăng tương đối cao ngay cả trong thời kỳ suy giâm thị trường 1969-1970, nhưng trong khi chúng tôi đang viết lúc này (lúc \"Dow\" ờ mức 900), mức sinh lợi này là thẩp hơn 3,5%, so với 3,2% vào cuối năm 1964. Sự thay đối trong mức lãi suất hiện hành tạo ra mức sụt giâm lớn nhẩt khoảng 38% giá thị trường của các trái phiếu trung hạn trong suốt giai đoạn này.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 13,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 23,
+          "char_len": 789,
+          "chunk_index": 2,
+          "pdf_page": 13,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p14_para_5",
+        "text": "Vào năm 1965, nhà đầu tư có thể đạt được mức sinh lợi khoảng 4,5% với các trái phiếu cấp cao có đánh thuểvà 3,25% với các trái phiếu miễn thuế tốt. Mức sinh lợi cổ tức (dividend return) của các cổ phiếu thường hàng đầu (với chỉ số DJIA ở mức 892) chỉ khoảng 3,2%. Thực tẽ này, cũng như một số thực tẽ khác, cho thấy là cắn có sự thận trọng. Chúng tôi đã gợi ý rằng \"ở mức thị trường bình thường\" nhà đău tư có thể đạt được mức sinh lợi cổ tức",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 14,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 22,
+          "char_len": 442,
+          "chunk_index": 5,
+          "pdf_page": 14,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p12_para_2",
+        "text": "3. Các kỳ vọng và phương châm vào cuối năm 1971 và đầu năm 1972 Đến cuối năm 1971, người ta có thể thu được lãi suất chịu thuế 8% đối với các trái phiếu công ty tốt với kỳ hạn trung bình, và 5,7% miễn thuế đối với các chứng khoán tốt của bang hoặc thành phố. Trong lĩnh vực ngắn hạn hơn thì nhà đẳu tư có thể thu được khoảng 6% đối với các chứng khoán của chính phủ Mỹ có kỳ hạn 5 năm. Trong trường hợp sau, người mua không cãn quan tâm đến sự giảm sút có thể có của giá thị trường, vì anh ta chắc chắn sẽ được hoàn trả toàn bộ; kể cả 6% mức lợi nhuận lãi, vào cuối một thời kỳ cằm giữ tương đối ngắn, cổ phiếu DJIA với mức giá thường xuyên của nó là 900 vào năm 1971 chỉ kiếm được có 3,5%.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 12,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 24,
+          "char_len": 690,
+          "chunk_index": 2,
+          "pdf_page": 12,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.031025,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p13_para_2 | starter/data/sách.pdf | page 13]\nNhững gì đã diễn ra từ sau năm 1964 Thay đổi lớn kế từ năm 1964 là sự tăng mức lai suất của các trái phiếu hàng đầu lên tới mức cao kỷ lục, mặc dù kể từ khi đó cũng có sự hồi phục đáng kể từ những mức giá thấp nhất của năm 1970. Mức sinh lợi có thể thu được từ các cổ phiếu công ty mới phát hành tốt hiện giờ là khoảng 7,5%, cao hơn nhiều so với mức 4,5% của năm 1964. Trong khi đó, mức sinh lợi cổ tức của các cổ phiếu loại DJIA[36] tăng tương đối cao ngay cả trong thời kỳ suy giâm thị trường 1969-1970, nhưng trong khi chúng tôi đang viết lúc này (lúc \"Dow\" ờ mức 900), mức sinh lợi này là thẩp hơn 3,5%, so với 3,2% vào cuối năm 1964. Sự thay đối trong mức lãi suất hiện hành tạo ra mức sụt giâm lớn nhẩt khoảng 38% giá thị trường của các trái phiếu trung hạn trong suốt giai đoạn này.\n\n[nha-dau-tu-thong-minh-excerpt_p14_para_5 | starter/data/sách.pdf | page 14]\nVào năm 1965, nhà đầu tư có thể đạt được mức sinh lợi khoảng 4,5% với các trái phiếu cấp cao có đánh thuểvà 3,25% với các trái phiếu miễn thuế tốt. Mức sinh lợi cổ tức (dividend return) của các cổ phiếu thường hàng đầu (với chỉ số DJIA ở mức 892) chỉ khoảng 3,2%. Thực tẽ này, cũng như một số thực tẽ khác, cho thấy là cắn có sự thận trọng. Chúng tôi đã gợi ý rằng \"ở mức thị trường bình thường\" nhà đău tư có thể đạt được mức sinh lợi cổ tức\n\n[nha-dau-tu-thong-minh-excerpt_p12_para_2 | starter/data/sách.pdf | page 12]\n3. Các kỳ vọng và phương châm vào cuối năm 1971 và đầu năm 1972 Đến cuối năm 1971, người ta có thể thu được lãi suất chịu thuế 8% đối với các trái phiếu công ty tốt với kỳ hạn trung bình, và 5,7% miễn thuế đối với các chứng khoán tốt của bang hoặc thành phố. Trong lĩnh vực ngắn hạn hơn thì nhà đẳu tư có thể thu được khoảng 6% đối với các chứng khoán của chính phủ Mỹ có kỳ hạn 5 năm. Trong trường hợp sau, người mua không cãn quan tâm đến sự giảm sút có thể có của giá thị trường, vì anh ta chắc chắn sẽ được hoàn trả toàn bộ; kể cả 6% mức lợi nhuận lãi, vào cuối một thời kỳ cằm giữ tương đối ngắn, cổ phiếu DJIA với mức giá thường xuyên của nó là 900 vào năm 1971 chỉ kiếm được có 3,5%.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p13_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p14_para_5",
+      "nha-dau-tu-thong-minh-excerpt_p12_para_2"
+    ],
+    "context_chars": 2156,
+    "elapsed_ms": 41.22,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Theo Graham ở cuối Chương 1, việc tìm kiếm cổ phiếu định giá thấp chỉ đáng công sức nếu nhà đầu tư mạnh bạo kỳ vọng tăng thêm bao nhiêu phần trăm lợi nhuận?",
+    "filter": null,
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 6,
+        "evidence": "việc tìm kiếm các cổ phiếu phát hành như vậy sẽ không đáng công sức của nhà đầu tư trừ phi anh ta muốn thêm 5% chẳng hạn vào mức sinh lợi trung bình hằng năm trước thuế của thành phần cổ phiếu trong danh mục đầu tư của mình."
+      }
+    ],
+    "results": [
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p6_para_2",
+        "text": "Nhà đầu tư mạnh bạo trong các điều kiện ngày nay vẫn có các cơ hội khác nhau để đạt được kết quả cao hơn mức trung bình. Danh mục khổng lồ các chứng khoán đã được đưa ra thị trường cằn phải bao gồm một số lượng đáng kể các chứng khoán được nhận định là bị định giá thấp theo các tiêu chuẩn hợp lý và tương đối tin cậy. Tính trung bình, các chứng khoán đó cãn phải gặt hái những kết quả thỏa đáng hơn là DJIA hay bất kỳ một danh sách đại diện tương tự nào khác. Theo quan điểm của chúng tôi, việc tìm kiếm các cổ phiếu phát hành như vậy sẽ không đáng công sức của nhà đầu tư trừ phi anh ta muốn thêm 5% chẳng hạn vào mức sinh lợi trung bình hằng năm trước thuế của thành phần cổ phiếu trong danh mục đầu tư của mình.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 6,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 30,
+          "char_len": 715,
+          "chunk_index": 2,
+          "pdf_page": 6,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p24_para_2",
+        "text": "Qua nhiều thập kỷ, một nhà đầu tư mạnh bạo kiểu này có thể hy vọng nhận được phần thưởng xứng đáng với nỗ lực nhiều hơn và kỹ năng cao hơn của mình, dưới dạng một mức sinh lợi trung bình cao hơn là mức sinh lợi của nhà đầu tư thụ động. Chúng tôi có một chút nghi ngờ rằng liệu thật sự có nhiều phần thưởng hơn cho nhà đầu tư chủ động trong các điều kiện ngày nay hay không. Nhưng năm sau hay nhiều năm sau nữa có thể sẽ khác rất nhiều. Do đó, chúng tôi sẽ tiếp tục dành sự chú ý cho các cơ hội đầu tư mạnh bạo như chúng đã từng tồn tại trong các giai đoạn trước đây và còn có thể quay trở lại.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 24,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 12,
+          "char_len": 593,
+          "chunk_index": 2,
+          "pdf_page": 24,
+          "section": "introduction",
+          "section_title": "Phần mở đầu: Những gì cuốn sách này hy vọng sẽ đạt được (Benjamin Graham)"
+        },
+        "score": 0.03101,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "nha-dau-tu-thong-minh-excerpt_p9_para_2",
+        "text": "Các kết quả mà nhà đầu tư xông xáo kỳ vọng Người mua chứng khoán mạnh bạo tất nhiên sẽ mong muốn và kỳ vọng đạt được các kết quả tổng thể tốt hơn nhà đầu tư phòng vệ hoặc thụ động. Nhưng đầu tiên anh ta phải chắc chắn rằng các kết quả của mình không tồi hơn. Không lý gì khi ta đem rất nhiều sinh lực, sự nghiên cứu và khả năng thiên bầm đến Phố Wall đề rồi kết cục lại bị lỗ nhiều hơn laiẵ Các phẩm chất trên, nếu định hướng nhầm, sẽ không khác gì sự cản trở. Vì vậy nên một điều vô cùng quan trọng là nhà đầu tư mạnh bạo phải khởi đầu với quan niệm rõ ràng về những quy trình nào sẽ đem lại cơ hội thành công tương đối, còn quy trình nào thì không.",
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "source": "starter/data/sách.pdf",
+        "page": 9,
+        "metadata": {
+          "author_role": "graham",
+          "book_page": 27,
+          "char_len": 650,
+          "chunk_index": 2,
+          "pdf_page": 9,
+          "section": "chapter_1",
+          "section_title": "Chương 1: Đầu tư hay đầu cơ: các kết quả mà nhà đầu tư thông minh trông đợi (Benjamin Graham)"
+        },
+        "score": 0.030777,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[nha-dau-tu-thong-minh-excerpt_p6_para_2 | starter/data/sách.pdf | page 6]\nNhà đầu tư mạnh bạo trong các điều kiện ngày nay vẫn có các cơ hội khác nhau để đạt được kết quả cao hơn mức trung bình. Danh mục khổng lồ các chứng khoán đã được đưa ra thị trường cằn phải bao gồm một số lượng đáng kể các chứng khoán được nhận định là bị định giá thấp theo các tiêu chuẩn hợp lý và tương đối tin cậy. Tính trung bình, các chứng khoán đó cãn phải gặt hái những kết quả thỏa đáng hơn là DJIA hay bất kỳ một danh sách đại diện tương tự nào khác. Theo quan điểm của chúng tôi, việc tìm kiếm các cổ phiếu phát hành như vậy sẽ không đáng công sức của nhà đầu tư trừ phi anh ta muốn thêm 5% chẳng hạn vào mức sinh lợi trung bình hằng năm trước thuế của thành phần cổ phiếu trong danh mục đầu tư của mình.\n\n[nha-dau-tu-thong-minh-excerpt_p24_para_2 | starter/data/sách.pdf | page 24]\nQua nhiều thập kỷ, một nhà đầu tư mạnh bạo kiểu này có thể hy vọng nhận được phần thưởng xứng đáng với nỗ lực nhiều hơn và kỹ năng cao hơn của mình, dưới dạng một mức sinh lợi trung bình cao hơn là mức sinh lợi của nhà đầu tư thụ động. Chúng tôi có một chút nghi ngờ rằng liệu thật sự có nhiều phần thưởng hơn cho nhà đầu tư chủ động trong các điều kiện ngày nay hay không. Nhưng năm sau hay nhiều năm sau nữa có thể sẽ khác rất nhiều. Do đó, chúng tôi sẽ tiếp tục dành sự chú ý cho các cơ hội đầu tư mạnh bạo như chúng đã từng tồn tại trong các giai đoạn trước đây và còn có thể quay trở lại.\n\n[nha-dau-tu-thong-minh-excerpt_p9_para_2 | starter/data/sách.pdf | page 9]\nCác kết quả mà nhà đầu tư xông xáo kỳ vọng Người mua chứng khoán mạnh bạo tất nhiên sẽ mong muốn và kỳ vọng đạt được các kết quả tổng thể tốt hơn nhà đầu tư phòng vệ hoặc thụ động. Nhưng đầu tiên anh ta phải chắc chắn rằng các kết quả của mình không tồi hơn. Không lý gì khi ta đem rất nhiều sinh lực, sự nghiên cứu và khả năng thiên bầm đến Phố Wall đề rồi kết cục lại bị lỗ nhiều hơn laiẵ Các phẩm chất trên, nếu định hướng nhầm, sẽ không khác gì sự cản trở. Vì vậy nên một điều vô cùng quan trọng là nhà đầu tư mạnh bạo phải khởi đầu với quan niệm rõ ràng về những quy trình nào sẽ đem lại cơ hội thành công tương đối, còn quy trình nào thì không.",
+    "context_ids": [
+      "nha-dau-tu-thong-minh-excerpt_p6_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p24_para_2",
+      "nha-dau-tu-thong-minh-excerpt_p9_para_2"
+    ],
+    "context_chars": 2189,
+    "elapsed_ms": 117.77,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

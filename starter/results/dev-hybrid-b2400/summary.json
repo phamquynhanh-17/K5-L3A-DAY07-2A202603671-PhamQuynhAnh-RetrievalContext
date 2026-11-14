@@ -1,0 +1,18 @@
+{
+  "strategy": "hybrid_rrf",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "use_filter": true,
+  "n": 15,
+  "hit1": 12,
+  "hit1_rate": 0.8,
+  "hit3": 14,
+  "hit3_rate": 0.9333,
+  "context_hit": 14,
+  "context_rate": 0.9333,
+  "avg_context_chars": 1919.2,
+  "median_ms": 120.11,
+  "total_seconds": 1.606,
+  "rerank_tokens": 0,
+  "split": "dev"
+}

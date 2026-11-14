@@ -1,0 +1,130 @@
+[
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng Chương 8 và Chương 20; p33_para_1 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "reason": "Giải thích đúng câu chữ về tuổi gần 80 từ p32_para_0 nhưng chưa nêu 3 điều mong muốn mỗi ngày."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng vụ sụp đổ thị trường chứng khoán năm 1907; p30_para_4 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng ít nhất 14,7%/năm; p29_para_2 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ lý do tránh nguy cơ sai lầm và không mua quá đắt; p29_para_4 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng 80.000 đô la sau 20 năm; p27_para_3 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ 3 bài học mạnh mẽ; p20_para_1 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng 20.000 bảng; p19_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng điều kiện có đủ tiền chi tiêu trong tay; p17_para_4 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ 3 tiêu chí năm 1934; p16_para_1 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng trên 90% và đủ 2 lý do; p15_para_0 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Trả lời đúng khoảng 25%-75%; cả p14_para_4 và p11_para_3 đều hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ 3,2% (1964) và <3,5% (Dow 900); p13_para_2 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng ~5%; p6_para_2 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "u01",
+    "abstention_correct": false,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Model từ chối về ngữ nghĩa nhưng vẫn gắn citation p33_para_1 và p17_para_4 nên status='answered'."
+  },
+  {
+    "query_id": "u02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng câu thiếu nội dung Chương 20."
+  }
+]

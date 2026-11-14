@@ -73,3 +73,29 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
         else:
             raise ValueError('action phải là search hoặc answer')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}
+
+
+def load_real_adapters(strategy: str = 'hybrid_rerank'):
+    """Helper to load the real GeminiController and Day6Retriever implemented in src/."""
+    import json
+    import sys
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parent.parent
+    if str(root / 'src') not in sys.path:
+        sys.path.insert(0, str(root / 'src'))
+    from agent_runner import GeminiController  # type: ignore
+    from retrievers import Day6Retriever  # type: ignore
+
+    data_dir = root / 'starter' / 'data' / 'day6_c'
+    chunks = json.loads((data_dir / 'chunks.json').read_text(encoding='utf-8'))
+    vectors = json.loads((data_dir / 'vectors.json').read_text(encoding='utf-8'))['vectors']
+    retriever = Day6Retriever(
+        chunks=chunks,
+        vectors=vectors,
+        strategy=strategy,
+        query_cache_path=data_dir / 'query_emb_cache.json',
+    )
+    controller = GeminiController()
+    return controller, retriever
+

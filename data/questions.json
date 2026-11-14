@@ -1,0 +1,294 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Warren E. Buffett đọc bản in lần đầu tiên của cuốn Nhà đầu tư thông minh vào năm nào và khi đó ông bao nhiêu tuổi?",
+    "expected_answer": "Năm 1950, khi ông mười chín tuổi.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 33,
+        "evidence": "Tôi đọc bản in lần đầu tiên của cuốn sách này vào năm 1950, khi tôi mười chín tuổi."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo lời nói đầu của Warren E. Buffett, hai chương nào trong sách cần được đặc biệt chú ý tới?",
+    "expected_answer": "Chương 8 và chương 20.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 33,
+        "evidence": "nếu đặc biệt chú ý tới những lời khuyên vô giá trong chương 8 và chương 20 - bạn sẽ không phải nhận kết quả tồi từ những đầu tư của mình"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ngày nào trong cuộc đời Ben Graham được nhắc đến khi ông gần tám mươi tuổi bày tỏ mong muốn làm ba điều mỗi ngày?",
+    "expected_answer": "Làm một điều gì đó ngốc nghếch, một điều gì đó sáng tạo và một điều gì đó hào phóng.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 32,
+        "evidence": "ngày nào ông cũng hy vọng làm được \"một điều gì đó ngốc nghếch, một điều gì đó sáng tạo và một điều gì đó hào phóng\"."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo phần chú giải của Jason Zweig, mẹ của Benjamin Graham đã mất trắng tiền trong sự kiện nào?",
+    "expected_answer": "Bà vay tiền kinh doanh cổ phiếu theo kiểu bảo chứng và mất trắng trong vụ sụp đổ của thị trường chứng khoán năm 1907.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 30,
+        "evidence": "rồi vay tiền để kinh doanh cổ phiếu theo kiểu bảo chứng (\"on margin\")[3], và bà bị mất trắng trong vụ sụp đổ của thị trường chứng 'Khoán năm 1907."
+      }
+    ],
+    "filter": {
+      "author_role": "zweig"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Từ năm 1936 tới khi nghỉ hưu vào năm 1956, Công ty Graham-Newman đạt mức lãi bình quân ít nhất bao nhiêu phần trăm mỗi năm?",
+    "expected_answer": "Ít nhất 14,7% mỗi năm, so với 12,2% của toàn bộ thị trường cổ phiếu.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 29,
+        "evidence": "từ năm 1936 cho tới khi ông nghỉ hưu vào năm 1956, Công ty Graham-Newman của ông nhận được lãi ít nhất 14,7% mỗi năm, so với 12,2% của toàn bộ thị trường cổ phiếu"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Theo nguyên tắc cơ bản của Graham, vì sao nhà đầu tư cần tuân thủ 'số dư an toàn' (margin of safety)?",
+    "expected_answer": "Vì không nhà đầu tư nào loại bỏ hoàn toàn được nguy cơ bị sai lầm; không mua quá đắt giúp giảm thiểu tỷ lệ rủi ro.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 29,
+        "evidence": "Chỉ có cách theo sát cái mà Graham gọi là \"số dư an toàn\" (\"margin of safety\") - không bao giờ mua quá đắt, cho dù sự đầu tư có hấp dẫn thế nào chăng nữa - bạn mới có thể giảm thiểu tỷ lệ rủi ro."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "John J. Raskob năm 1929 đã giả thiết rằng tiết kiệm 15 đô la mỗi tháng đầu tư vào cổ phiếu phổ thông tốt trong 20 năm sẽ tạo ra bao nhiêu tiền?",
+    "expected_answer": "80.000 đô la trong 20 năm (so với tổng lượng đầu tư 3.600 đô la).",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 27,
+        "evidence": "Giả thiết của ông là chỉ với lượng tiết kiệm 15 đô la đầu tư vào những cổ phiếu phổ thông tốt - với cổ tức được tái đầu tư - sẽ tạo ra lượng tài sản trị giá 80.000 đô la trong 20 năm, so với tổng lượng đầu tư chỉ có 3.600 đô la."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong Phần mở đầu, cuốn sách này sẽ dạy cho người đọc ba bài học mạnh mẽ nào theo bình luận của Jason Zweig?",
+    "expected_answer": "Giảm thiểu khả năng nhận lỗ không thể hoàn lại, tối đa hóa cơ hội thu lợi kéo dài, và kiểm soát hành vi thất sách.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 20,
+        "evidence": "Làm thế nào để bạn giảm thiểu đến mức thấp nhất khả năng nhận lỗ không thể hoàn lại; Làm thế nào để bạn tối đa hóa các cơ hội thu lợi kéo dài; Làm thế nào để bạn kiểm soát được hành vi thất sách vốn khiến nhiều nhà đắu tư không đạt được triển vọng tối đa của mình."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong phần bình luận về Phần mở đầu, Jason Zweig kể Isaac Newton đã mất bao nhiêu tiền khi quay lại mua cổ phiếu Công ty South Sea?",
+    "expected_answer": "Mất đứt 20.000 bảng (khoảng hơn 3 triệu đô la theo giá thời điểm bình luận).",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 19,
+        "evidence": "Nevvton lại nhảy vào, với mức giá cao hơn nhiều - và mất đứt 20.000 bảng (khoảng hơn 3 triệu đô la theo giá tiền ngày nay)."
+      }
+    ],
+    "filter": {
+      "section": "commentary_intro"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Jason Zweig ở bình luận Phần mở đầu, nhà đầu tư chỉ nên đón nhận thị trường giá xuống với điều kiện gì?",
+    "expected_answer": "Với điều kiện bạn có đủ tiền chi tiêu trong tay.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 17,
+        "evidence": "Và ngược lại (với điều kiện bạn có đủ tiền chi tiêu trong tay), bạn nên đón nhận một thị trường giá xuống, vì nó làm chứng khoán có thể bán được[27]."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong giáo trình Security Analysis năm 1934, Graham đã định nghĩa hoạt động đầu tư gồm những tiêu chí nào?",
+    "expected_answer": "Là hoạt động dựa trên sự phân tích kỹ lưỡng, hứa hẹn sự an toàn của vốn và mang lại một phần lời lãi thỏa đáng.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 16,
+        "evidence": "Hoạt động đầu tư là hoạt động dựa trên sự phân tích kỹ lưỡng, hứa hẹn sự an toàn của vốn và mang lại một phần lời lãi thỏa đáng. Các hoạt động không đáp ứng được các yêu cầu đó là hoạt động đău cơ."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Năm 1948, kết quả khảo sát cho thấy có bao nhiêu phần trăm công chúng phản đối việc mua cổ phiếu thường và vì hai lý do gì?",
+    "expected_answer": "Trên 90% phản đối; khoảng một nửa cho là 'không an toàn, một sự đánh bạc' và một nửa nêu lý do là 'không thạo'.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 15,
+        "evidence": "khi mà trên 90% những người được hỏi cho thấy họ phản đối việc mua các cổ phiếu thường[30]. Khoảng một nửa số người cho biết lý do là \"không an toàn, một sự đánh bạc\", và một nửa thì nêu lý do là \"không thạo\"[31]."
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Trong Chương 1, Graham đặt ra giới hạn tỷ lệ tối thiểu và tối đa cho trái phiếu và cổ phiếu thường của nhà đầu tư phòng vệ là bao nhiêu?",
+    "expected_answer": "Phần trái phiếu không bao giờ được ít hơn 25% hoặc nhiều hơn 75%, và điều ngược lại áp dụng cho phần cổ phiếu thường; đơn giản nhất là giữ tỷ lệ 50-50.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 14,
+        "evidence": "phần trái phiếu không bao giờ được ít hơn 25% hoặc nhiều hơn 75%, và điều ngược lại là cắn thiết cho phần cổ phiếu thường; lựa chọn đơn giản nhất của anh ta là giữ một tỷ lệ 50-50 giữa chúng"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong Chương 1 của Graham, mức sinh lợi cổ tức của cổ phiếu loại DJIA vào cuối năm 1964 và lúc Dow ở mức 900 là bao nhiêu?",
+    "expected_answer": "Thấp hơn 3,5% lúc Dow ở mức 900, so với 3,2% vào cuối năm 1964.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 13,
+        "evidence": "trong khi chúng tôi đang viết lúc này (lúc \"Dow\" ờ mức 900), mức sinh lợi này là thẩp hơn 3,5%, so với 3,2% vào cuối năm 1964."
+      }
+    ],
+    "filter": {
+      "section": "chapter_1"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo Graham ở cuối Chương 1, việc tìm kiếm cổ phiếu định giá thấp chỉ đáng công sức nếu nhà đầu tư mạnh bạo kỳ vọng tăng thêm bao nhiêu phần trăm lợi nhuận?",
+    "expected_answer": "Trừ phi anh ta muốn thêm khoảng 5% vào mức sinh lợi trung bình hằng năm trước thuế của thành phần cổ phiếu.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 6,
+        "evidence": "việc tìm kiếm các cổ phiếu phát hành như vậy sẽ không đáng công sức của nhà đầu tư trừ phi anh ta muốn thêm 5% chẳng hạn vào mức sinh lợi trung bình hằng năm trước thuế của thành phần cổ phiếu trong danh mục đầu tư của mình."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Theo lời nói đầu của Warren E. Buffett, yếu tố quyết định việc đầu tư thành công trong cuộc đời có đòi hỏi chỉ số IQ quá cao hay thông tin nội bộ không?",
+    "expected_answer": "Không; điều cần có là khuôn khổ trí tuệ sáng suốt để ra quyết định và khả năng không để cảm xúc phá hủy nền tảng đó.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 33,
+        "evidence": "Việc đầu tư thành công trong cuộc đời không đòi hỏi một chỉ số IQ cao chót vót, tầm hiểu biết kinh doanh sâu sắc khác thường, hay thông tin nội bộ. Những gì cần có là một khuôn khổ trí tuệ sáng suốt để đưa ra quyết định, và khả năng khiến cho cảm xúc không phá hủy nền tảng đó."
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Tháng 4 năm 1919, Benjamin Graham kiếm được mức sinh lợi bao nhiêu trong ngày đầu tiên với Savold Tire và kết cục công ty đó ra sao?",
+    "expected_answer": "Thu được mức sinh lợi 250% ngày đầu tiên, nhưng tới tháng 10 công ty bị phát hiện là lừa đảo và cổ phiếu trở thành vô giá trị.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 29,
+        "evidence": "vì vào tháng 4 năm 1919, ông từng thu được mức sinh lợi 250% trong ngày đầu tiên kinh doanh với Savold Tire, một công ty mới trong ngành ô tô đang bùng nổ; vậy mà tới tháng 10, công ty đã bị phát hiện là lừa đảo và cổ phiếu của nó trở thành vô giá trị."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Trong phần Bình luận về Chương 1 của Jason Zweig, vì sao 'Hiệu ứng tháng Giêng' cuối cùng lại làm tiêu biến hết lợi nhuận của nhà đầu tư?",
+    "expected_answer": "Vì hiệu ứng lớn nhất ở các chứng khoán nhỏ nhưng tổng chi phí môi giới mua và bán chứng khoán nhỏ có thể ăn tới 8% khoản đầu tư.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 1,
+        "evidence": "theo Plexus Group, một công ty hàng đầu về chi phí môi giới, tổng số tiền mua và bán những chứng khoán bé xíu như vậy có thể ăn tới 8% đầu tư của bạn[60]. Đáng buồn thay, đến lúc bạn trả xong cho nhà mồi giới của bạn, tất cả lợi nhuận do lên giá từ hiệu ứng tháng Giêng của bạn sẽ tiêu biến."
+      }
+    ],
+    "filter": {
+      "section": "commentary_ch1"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Vào năm 1973 và năm 2002, mức luân chuyển cổ phiếu hằng năm tại Sở Giao dịch chứng khoán New York đã thay đổi như thế nào?",
+    "expected_answer": "Năm 1973 là 20% (nắm giữ trung bình 5 năm), còn tới năm 2002 tăng lên 105% (thời kỳ nắm giữ chỉ còn 11,4 tháng).",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 4,
+        "evidence": "Vào năm 1973, khi Graham sửa lại lần cuối cùng cuốn Nhà đầu tư thông minh, mức luân chuyển hằng năm tại Sở Giao dịch chứng khoán New York là 20%, tức là một cổ đông điển hình sẽ nắm giữ một cổ phiếu trong vòng năm năm trước khi bán nó đi. Tới năm 2002, mức luân chuyển đạt tới 105% - thời kỳ nắm giữ chỉ có 11,4 tháng."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Graham trong Chương 1, nếu người không chuyên muốn thử vận may đầu cơ thì cần tuân thủ nguyên tắc quản lý tiền vốn nào?",
+    "expected_answer": "Phải dành một khoản tiền vốn càng nhỏ càng tốt trong một quỹ riêng, không bao giờ đổ thêm tiền vào khi thị trường lên và không trộn lẫn với tài khoản đầu tư.",
+    "gold": [
+      {
+        "source_id": "nha-dau-tu-thong-minh-excerpt",
+        "page": 14,
+        "evidence": "Nếu muốn thử vận may của mình, bạn hãy dành một khoản - càng nhỏ càng tốt - tiền vốn của mình trong quỹ riêng để phục vụ cho mục đích này. Đừng bao giờ đổ thêm tiền vào tài khoản này chỉ vì thị trường đã đi lên và lợi nhuận tuôn vào."
+      }
+    ]
+  }
+]
